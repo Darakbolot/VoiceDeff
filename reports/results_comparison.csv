@@ -1,0 +1,121 @@
+dataset,version,method,metric,mean
+libritts,calibrated_asv,Dynamic PGD (No U-Shape),s_asv,0.2755797654855996
+libritts,calibrated_asv,Dynamic PGD (No U-Shape),pesq,1.0460227446009713
+libritts,calibrated_asv,Dynamic PGD (No U-Shape),stoi,0.7300948573609324
+libritts,calibrated_asv,Dynamic PGD (No U-Shape),privacy_utility_success,0.0
+libritts,calibrated_asv,Dynamic PGD (No U-Shape),dsr_success,86.66666666666667
+libritts,calibrated_asv,High-Frequency PGD (3.75-8 kHz),s_asv,0.35999188118924697
+libritts,calibrated_asv,High-Frequency PGD (3.75-8 kHz),pesq,1.3526584421594936
+libritts,calibrated_asv,High-Frequency PGD (3.75-8 kHz),stoi,0.9611541123735095
+libritts,calibrated_asv,High-Frequency PGD (3.75-8 kHz),privacy_utility_success,10.9375
+libritts,calibrated_asv,High-Frequency PGD (3.75-8 kHz),dsr_success,89.79166666666666
+libritts,calibrated_asv,Proposed (Dynamic + U-Shape),s_asv,0.31666287158926326
+libritts,calibrated_asv,Proposed (Dynamic + U-Shape),pesq,1.2105253367374342
+libritts,calibrated_asv,Proposed (Dynamic + U-Shape),stoi,0.8983135492900564
+libritts,calibrated_asv,Proposed (Dynamic + U-Shape),privacy_utility_success,0.10416666666666666
+libritts,calibrated_asv,Proposed (Dynamic + U-Shape),dsr_success,74.375
+libritts,calibrated_asv,Random Noise,s_asv,0.8485651621284583
+libritts,calibrated_asv,Random Noise,pesq,1.0764742005616426
+libritts,calibrated_asv,Random Noise,stoi,0.8784539406065491
+libritts,calibrated_asv,Random Noise,privacy_utility_success,0.0
+libritts,calibrated_asv,Random Noise,dsr_success,40.41666666666667
+libritts,calibrated_asv,Static PGD,s_asv,0.2520488934455595
+libritts,calibrated_asv,Static PGD,pesq,1.049678099527955
+libritts,calibrated_asv,Static PGD,stoi,0.7491147359667412
+libritts,calibrated_asv,Static PGD,privacy_utility_success,0.0
+libritts,calibrated_asv,Static PGD,dsr_success,77.8125
+libritts,calibrated_asv,Undefended,s_asv,0.9302244253456593
+libritts,calibrated_asv,Undefended,pesq,4.643888473510742
+libritts,calibrated_asv,Undefended,stoi,0.9999999999999998
+libritts,calibrated_asv,Undefended,privacy_utility_success,6.5625
+libritts,calibrated_asv,Undefended,dsr_success,0.625
+libritts,fixed_threshold,Dynamic PGD (No U-Shape),s_asv,0.27557976548559965
+libritts,fixed_threshold,Dynamic PGD (No U-Shape),pesq,1.0460227446009716
+libritts,fixed_threshold,Dynamic PGD (No U-Shape),stoi,0.7300948573609324
+libritts,fixed_threshold,Dynamic PGD (No U-Shape),privacy_utility_success,0.0
+libritts,fixed_threshold,Dynamic PGD (No U-Shape),dsr_success,40.416666666666664
+libritts,fixed_threshold,High-Frequency PGD (3.75-8 kHz),s_asv,0.359991881189247
+libritts,fixed_threshold,High-Frequency PGD (3.75-8 kHz),pesq,1.3526584421594938
+libritts,fixed_threshold,High-Frequency PGD (3.75-8 kHz),stoi,0.9611541123735096
+libritts,fixed_threshold,High-Frequency PGD (3.75-8 kHz),privacy_utility_success,1.1458333333333333
+libritts,fixed_threshold,High-Frequency PGD (3.75-8 kHz),dsr_success,11.875
+libritts,fixed_threshold,Proposed (Dynamic + U-Shape),s_asv,0.31666287158926326
+libritts,fixed_threshold,Proposed (Dynamic + U-Shape),pesq,1.210525336737434
+libritts,fixed_threshold,Proposed (Dynamic + U-Shape),stoi,0.8983135492900564
+libritts,fixed_threshold,Proposed (Dynamic + U-Shape),privacy_utility_success,0.0
+libritts,fixed_threshold,Proposed (Dynamic + U-Shape),dsr_success,20.625
+libritts,fixed_threshold,Random Noise,s_asv,0.8485651621284583
+libritts,fixed_threshold,Random Noise,pesq,1.0764742005616428
+libritts,fixed_threshold,Random Noise,stoi,0.8784539406065491
+libritts,fixed_threshold,Random Noise,privacy_utility_success,0.0
+libritts,fixed_threshold,Random Noise,dsr_success,0.0
+libritts,fixed_threshold,Static PGD,s_asv,0.2520488934455595
+libritts,fixed_threshold,Static PGD,pesq,1.049678099527955
+libritts,fixed_threshold,Static PGD,stoi,0.749114735966741
+libritts,fixed_threshold,Static PGD,privacy_utility_success,0.0
+libritts,fixed_threshold,Static PGD,dsr_success,33.75
+libritts,fixed_threshold,Undefended,s_asv,0.9302244253456594
+libritts,fixed_threshold,Undefended,pesq,4.643888473510742
+libritts,fixed_threshold,Undefended,stoi,0.9999999999999997
+libritts,fixed_threshold,Undefended,privacy_utility_success,0.0
+libritts,fixed_threshold,Undefended,dsr_success,0.0
+vctk,calibrated_asv,Dynamic PGD (No U-Shape),s_asv,0.279270595141376
+vctk,calibrated_asv,Dynamic PGD (No U-Shape),pesq,1.1475035298615694
+vctk,calibrated_asv,Dynamic PGD (No U-Shape),stoi,0.5616071001747942
+vctk,calibrated_asv,Dynamic PGD (No U-Shape),privacy_utility_success,0.0
+vctk,calibrated_asv,Dynamic PGD (No U-Shape),dsr_success,95.83333333333334
+vctk,calibrated_asv,High-Frequency PGD (3.75-8 kHz),s_asv,0.3534209602667639
+vctk,calibrated_asv,High-Frequency PGD (3.75-8 kHz),pesq,1.413875879968206
+vctk,calibrated_asv,High-Frequency PGD (3.75-8 kHz),stoi,0.7618912453246318
+vctk,calibrated_asv,High-Frequency PGD (3.75-8 kHz),privacy_utility_success,6.145833333333334
+vctk,calibrated_asv,High-Frequency PGD (3.75-8 kHz),dsr_success,86.14583333333334
+vctk,calibrated_asv,Proposed (Dynamic + U-Shape),s_asv,0.3051176486692081
+vctk,calibrated_asv,Proposed (Dynamic + U-Shape),pesq,1.3471573372681935
+vctk,calibrated_asv,Proposed (Dynamic + U-Shape),stoi,0.6518615371814872
+vctk,calibrated_asv,Proposed (Dynamic + U-Shape),privacy_utility_success,0.3125
+vctk,calibrated_asv,Proposed (Dynamic + U-Shape),dsr_success,87.1875
+vctk,calibrated_asv,Random Noise,s_asv,0.8144080785103143
+vctk,calibrated_asv,Random Noise,pesq,1.1456234359492858
+vctk,calibrated_asv,Random Noise,stoi,0.70108286164348
+vctk,calibrated_asv,Random Noise,privacy_utility_success,0.0
+vctk,calibrated_asv,Random Noise,dsr_success,47.604166666666664
+vctk,calibrated_asv,Static PGD,s_asv,0.2558080798325439
+vctk,calibrated_asv,Static PGD,pesq,1.1460506333659093
+vctk,calibrated_asv,Static PGD,stoi,0.5734318762408751
+vctk,calibrated_asv,Static PGD,privacy_utility_success,0.0
+vctk,calibrated_asv,Static PGD,dsr_success,92.39583333333334
+vctk,calibrated_asv,Undefended,s_asv,0.9209333116188645
+vctk,calibrated_asv,Undefended,pesq,4.643888473510742
+vctk,calibrated_asv,Undefended,stoi,0.9999999999999918
+vctk,calibrated_asv,Undefended,privacy_utility_success,6.5625
+vctk,calibrated_asv,Undefended,dsr_success,0.0
+vctk,fixed_threshold,Dynamic PGD (No U-Shape),s_asv,0.27927059514137603
+vctk,fixed_threshold,Dynamic PGD (No U-Shape),pesq,1.1475035298615694
+vctk,fixed_threshold,Dynamic PGD (No U-Shape),stoi,0.5616071001747942
+vctk,fixed_threshold,Dynamic PGD (No U-Shape),privacy_utility_success,0.0
+vctk,fixed_threshold,Dynamic PGD (No U-Shape),dsr_success,45.104166666666664
+vctk,fixed_threshold,High-Frequency PGD (3.75-8 kHz),s_asv,0.353420960266764
+vctk,fixed_threshold,High-Frequency PGD (3.75-8 kHz),pesq,1.413875879968206
+vctk,fixed_threshold,High-Frequency PGD (3.75-8 kHz),stoi,0.7618912453246319
+vctk,fixed_threshold,High-Frequency PGD (3.75-8 kHz),privacy_utility_success,1.0416666666666667
+vctk,fixed_threshold,High-Frequency PGD (3.75-8 kHz),dsr_success,10.208333333333334
+vctk,fixed_threshold,Proposed (Dynamic + U-Shape),s_asv,0.3051176486692081
+vctk,fixed_threshold,Proposed (Dynamic + U-Shape),pesq,1.3471573372681938
+vctk,fixed_threshold,Proposed (Dynamic + U-Shape),stoi,0.6518615371814872
+vctk,fixed_threshold,Proposed (Dynamic + U-Shape),privacy_utility_success,0.3125
+vctk,fixed_threshold,Proposed (Dynamic + U-Shape),dsr_success,31.25
+vctk,fixed_threshold,Random Noise,s_asv,0.8144080785103142
+vctk,fixed_threshold,Random Noise,pesq,1.1456234359492858
+vctk,fixed_threshold,Random Noise,stoi,0.70108286164348
+vctk,fixed_threshold,Random Noise,privacy_utility_success,0.0
+vctk,fixed_threshold,Random Noise,dsr_success,0.0
+vctk,fixed_threshold,Static PGD,s_asv,0.2558080798325439
+vctk,fixed_threshold,Static PGD,pesq,1.146050633365909
+vctk,fixed_threshold,Static PGD,stoi,0.5734318762408751
+vctk,fixed_threshold,Static PGD,privacy_utility_success,0.0
+vctk,fixed_threshold,Static PGD,dsr_success,44.479166666666664
+vctk,fixed_threshold,Undefended,s_asv,0.9209333116188644
+vctk,fixed_threshold,Undefended,pesq,4.643888473510742
+vctk,fixed_threshold,Undefended,stoi,0.9999999999999917
+vctk,fixed_threshold,Undefended,privacy_utility_success,0.0
+vctk,fixed_threshold,Undefended,dsr_success,0.0

@@ -1,0 +1,3 @@
+method,independent_speakers,state_b_fraction_mean,state_b_fraction_ci95_half_width,state_switches_mean,state_switches_ci95_half_width,never_entered_state_b_mean,never_entered_state_b_ci95_half_width
+Dynamic PGD (No U-Shape),40,32.7896875,11.605127007246322,75.81458333333333,25.871908609311443,35.729166666666664,14.011480575695275
+Proposed (Dynamic + U-Shape),40,18.895520833333332,9.35687108114077,22.157291666666666,9.940873411711971,61.770833333333336,14.881363395218127

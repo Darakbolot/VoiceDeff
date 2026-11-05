@@ -1,0 +1,866 @@
+[
+  {
+    "original_path": "hasil_revisi_libritts/.ipynb_checkpoints/audio_level_audit-checkpoint.csv",
+    "bytes": 121429,
+    "sha256": "52ed3f071a053ce32e2e49d1dcc4c6574a0a825963cf0b8c4e03630d59493c82",
+    "current_path": "results/libritts/fixed_threshold/.ipynb_checkpoints/audio_level_audit-checkpoint.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/asv_calibration_scores.csv",
+    "bytes": 15022,
+    "sha256": "2d875e83a4a9b09f2017c341e80db2a675923dd6a7abfae3e6b5d6b17a04ac46",
+    "current_path": "results/libritts/fixed_threshold/asv_calibration_scores.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/asv_threshold_audit.csv",
+    "bytes": 222,
+    "sha256": "30346bff09b322c74961e112b39860279992f1d605d10c66ba7691a76e81358a",
+    "current_path": "results/libritts/fixed_threshold/asv_threshold_audit.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/asv_threshold_sensitivity.csv",
+    "bytes": 339,
+    "sha256": "1b5afc8a8868b76b097291f66751bf025533ca17df69917168dde2245edf9e83",
+    "current_path": "results/libritts/fixed_threshold/asv_threshold_sensitivity.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/audio_examples/Dynamic_PGD_(No_U-Shape).wav",
+    "bytes": 88684,
+    "sha256": "9c6948caffc5489856421f5381008706ee6be28ae4793b4021278d03fd52c737",
+    "current_path": "results/libritts/fixed_threshold/audio_examples/Dynamic_PGD_(No_U-Shape).wav"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav",
+    "bytes": 88684,
+    "sha256": "1ba4de0780712d14c5a9ade27935d1d862db9173bce884be4fec1247f4b16b80",
+    "current_path": "results/libritts/fixed_threshold/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/audio_examples/Proposed_(Dynamic_+_U-Shape).wav",
+    "bytes": 88684,
+    "sha256": "c07f17830ab740fb9ed95b7d6e8dd1211e51136d6625c35ff315f08328ffeff4",
+    "current_path": "results/libritts/fixed_threshold/audio_examples/Proposed_(Dynamic_+_U-Shape).wav"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/audio_examples/Random_Noise.wav",
+    "bytes": 88684,
+    "sha256": "39b5599a8bb97511b7ac2ddabb525d60f5739557897ae345660641374137a2fc",
+    "current_path": "results/libritts/fixed_threshold/audio_examples/Random_Noise.wav"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/audio_examples/Static_PGD.wav",
+    "bytes": 88684,
+    "sha256": "9c6948caffc5489856421f5381008706ee6be28ae4793b4021278d03fd52c737",
+    "current_path": "results/libritts/fixed_threshold/audio_examples/Static_PGD.wav"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/audio_examples/Undefended.wav",
+    "bytes": 88684,
+    "sha256": "08f842d350df6f85e7ebba419508a847359b632cc23b7d26215c822f42a411ca",
+    "current_path": "results/libritts/fixed_threshold/audio_examples/Undefended.wav"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/audio_level_audit.csv",
+    "bytes": 121429,
+    "sha256": "52ed3f071a053ce32e2e49d1dcc4c6574a0a825963cf0b8c4e03630d59493c82",
+    "current_path": "results/libritts/fixed_threshold/audio_level_audit.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/audio_level_summary.csv",
+    "bytes": 392,
+    "sha256": "5c027afb3ef85bd23937d70e15a37282e1c208cf38ba4636eae1ed77fafc5483",
+    "current_path": "results/libritts/fixed_threshold/audio_level_summary.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/contoh_mel_spectrogram.png",
+    "bytes": 593033,
+    "sha256": "4249c956064fa6d8fc990cc17c4d50a07f375b9a807e8921aceaba11ed3db055",
+    "current_path": "results/libritts/fixed_threshold/contoh_mel_spectrogram.png"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/data_count_preview.csv",
+    "bytes": 102,
+    "sha256": "577d41419fad26e4872182cd057942c7341c107cff3a6302ca73fb98768f3ccc",
+    "current_path": "results/libritts/fixed_threshold/data_count_preview.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/distribusi_metrik.png",
+    "bytes": 208837,
+    "sha256": "5e3e3fe41b4e941ce52ac1ecb80b329c3101b3129cf960d9b3ba9b7b2712cd62",
+    "current_path": "results/libritts/fixed_threshold/distribusi_metrik.png"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/evaluated_methods.csv",
+    "bytes": 128,
+    "sha256": "30435f24b44eced12b57b022b3217f8eb52860fe56fbf0c8ce3667a1a044a3da",
+    "current_path": "results/libritts/fixed_threshold/evaluated_methods.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/execution_workload.csv",
+    "bytes": 199,
+    "sha256": "90c92102ccc380ad69ce4417fc722f8d244523fa8b3e641a48447c92ae6ecd58",
+    "current_path": "results/libritts/fixed_threshold/execution_workload.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/experiment_manifest.json",
+    "bytes": 8019,
+    "sha256": "27b300db1e16e8c667432e2647724f2f4ac8b52a9293c0baf99d04a7a547f658",
+    "current_path": "results/libritts/fixed_threshold/experiment_manifest.json"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/frequency_band_mapping.csv",
+    "bytes": 234,
+    "sha256": "311968bfd8225a5dceb6cd6d9a50f2e0abf336b14ea0c0b9ae8682fc36fd024d",
+    "current_path": "results/libritts/fixed_threshold/frequency_band_mapping.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/paired_significance_tests.csv",
+    "bytes": 2767,
+    "sha256": "602c6aace2ab7fa545cb72742ce9d8afbe18e88e5b58105bed4f9fb76adfdb17",
+    "current_path": "results/libritts/fixed_threshold/paired_significance_tests.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/paper_table_values.csv",
+    "bytes": 1542,
+    "sha256": "3211c4ab8a22d7450327265c855a55d481a53054403533f5bbb0c43d77015ae0",
+    "current_path": "results/libritts/fixed_threshold/paper_table_values.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/pareto_analysis.csv",
+    "bytes": 514,
+    "sha256": "f2954bc22554c5221ac64f8d1e2e4ba45b64520eea32309aedd1afce1a8ab2e4",
+    "current_path": "results/libritts/fixed_threshold/pareto_analysis.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/pareto_tradeoff.png",
+    "bytes": 170609,
+    "sha256": "d6b6b83a71878c61cc79b538530aab8e6a6c85167ec19913c4941b70438e6a68",
+    "current_path": "results/libritts/fixed_threshold/pareto_tradeoff.png"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/per_sample_metrics.csv",
+    "bytes": 2425176,
+    "sha256": "e4432b23868d97ed1c2f849d1694eca8c3b5a81302f180e2614c68f76c98288c",
+    "current_path": "results/libritts/fixed_threshold/per_sample_metrics.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/per_sample_metrics_checkpoint.csv",
+    "bytes": 2425176,
+    "sha256": "e4432b23868d97ed1c2f849d1694eca8c3b5a81302f180e2614c68f76c98288c",
+    "current_path": "results/libritts/fixed_threshold/per_sample_metrics_checkpoint.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/proposed_vs_baselines.csv",
+    "bytes": 1843,
+    "sha256": "f1162d3d0fb2bbdf3f94d38afaf719f91921c494d828a2afbfb42ac3e0ab0b8b",
+    "current_path": "results/libritts/fixed_threshold/proposed_vs_baselines.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/quality_calibration_scores.csv",
+    "bytes": 12759,
+    "sha256": "1230863c8817c732fbe1f9aed4cf5589ad2a81d31c39971aeaa2269ba25a669f",
+    "current_path": "results/libritts/fixed_threshold/quality_calibration_scores.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/run_level_summary.csv",
+    "bytes": 5780,
+    "sha256": "072b527647f328d931f0834abf4ac01394b9082be57029cc9eb0281e5333e993",
+    "current_path": "results/libritts/fixed_threshold/run_level_summary.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/sample_selection_manifest.csv",
+    "bytes": 80251,
+    "sha256": "d6fc54a6278c07107430ac8fb9134a56f904c82674106e685bbceefdcbeca7f6",
+    "current_path": "results/libritts/fixed_threshold/sample_selection_manifest.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/sample_selection_preview.csv",
+    "bytes": 80251,
+    "sha256": "d6fc54a6278c07107430ac8fb9134a56f904c82674106e685bbceefdcbeca7f6",
+    "current_path": "results/libritts/fixed_threshold/sample_selection_preview.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/spektrum_perturbasi_ushape.png",
+    "bytes": 389561,
+    "sha256": "ac761b589321cc23112d413e23fe6b08fa46691863b2af13936f3d4093fc961c",
+    "current_path": "results/libritts/fixed_threshold/spektrum_perturbasi_ushape.png"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/summary_statistics.csv",
+    "bytes": 12133,
+    "sha256": "b39e106a67e4b38d87f61856e1f8abd4da89aa3fc7445b3c7ef4ddad17ab7d0d",
+    "current_path": "results/libritts/fixed_threshold/summary_statistics.csv"
+  },
+  {
+    "original_path": "hasil_revisi_libritts/tabel_hasil_dengan_ci95.png",
+    "bytes": 281347,
+    "sha256": "7aca4355e8f4c32306560f9c2e5287cf7703e2f8c839b65a262a7983f0cc5e60",
+    "current_path": "results/libritts/fixed_threshold/tabel_hasil_dengan_ci95.png"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/asv_calibration_scores.csv",
+    "bytes": 15023,
+    "sha256": "f4d65164b3a269bde866d72e779e4ebdad5b120c019183add5a995e346f18339",
+    "current_path": "results/vctk/fixed_threshold/asv_calibration_scores.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/asv_threshold_audit.csv",
+    "bytes": 223,
+    "sha256": "23acb0cb694ed8c49243b3bc97d27c8d54aa433c546f9205c77c4a8c5b3682b6",
+    "current_path": "results/vctk/fixed_threshold/asv_threshold_audit.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/asv_threshold_sensitivity.csv",
+    "bytes": 317,
+    "sha256": "fba4cf8f5f153ed1f0f6b36c08c620b6e9779516598c97b647cbd2dfc95f4eba",
+    "current_path": "results/vctk/fixed_threshold/asv_threshold_sensitivity.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/audio_examples/Dynamic_PGD_(No_U-Shape).wav",
+    "bytes": 95674,
+    "sha256": "11a7ddca53bea7c2636df2efe8b31df968282013d474bc60e14cb880254b91a1",
+    "current_path": "results/vctk/fixed_threshold/audio_examples/Dynamic_PGD_(No_U-Shape).wav"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav",
+    "bytes": 95674,
+    "sha256": "932d174a72b2c8ed15a692cfc7a795bdeee7ecde251f1eca250c895edd69e886",
+    "current_path": "results/vctk/fixed_threshold/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/audio_examples/Proposed_(Dynamic_+_U-Shape).wav",
+    "bytes": 95674,
+    "sha256": "78a51df538dace8f0c42ef5e9a05a9ab2e07a16247465a95ffd8d027909be7e3",
+    "current_path": "results/vctk/fixed_threshold/audio_examples/Proposed_(Dynamic_+_U-Shape).wav"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/audio_examples/Random_Noise.wav",
+    "bytes": 95674,
+    "sha256": "ff37a894cdae368da3bd6a1f68a6094631da8a5f90d4ad6c713cef848037e62f",
+    "current_path": "results/vctk/fixed_threshold/audio_examples/Random_Noise.wav"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/audio_examples/Static_PGD.wav",
+    "bytes": 95674,
+    "sha256": "5d9cf3fa6c2bb087127de40267207f11294ce61bc0a0563c66f9fecc2adf4055",
+    "current_path": "results/vctk/fixed_threshold/audio_examples/Static_PGD.wav"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/audio_examples/Undefended.wav",
+    "bytes": 95674,
+    "sha256": "c4d7a13511e8e0767084b061c278ea497cde6620ca6dd963c43f954e97f42288",
+    "current_path": "results/vctk/fixed_threshold/audio_examples/Undefended.wav"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/audio_level_audit.csv",
+    "bytes": 123379,
+    "sha256": "bcda81cbc848466fd27b0a891274d1f7fe6a536c31161577c146f0c4000d287e",
+    "current_path": "results/vctk/fixed_threshold/audio_level_audit.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/audio_level_summary.csv",
+    "bytes": 382,
+    "sha256": "63bf72322dc77dd27b644ae4269e4492f7a3760256eddf24025e35962b41a7cf",
+    "current_path": "results/vctk/fixed_threshold/audio_level_summary.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/contoh_mel_spectrogram.png",
+    "bytes": 546989,
+    "sha256": "8583f8e947d7fc274c94ffcfabdde18c83cab30bf12e8a359c27af67ebfe0b83",
+    "current_path": "results/vctk/fixed_threshold/contoh_mel_spectrogram.png"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/data_count_preview.csv",
+    "bytes": 102,
+    "sha256": "577d41419fad26e4872182cd057942c7341c107cff3a6302ca73fb98768f3ccc",
+    "current_path": "results/vctk/fixed_threshold/data_count_preview.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/distribusi_metrik.png",
+    "bytes": 207775,
+    "sha256": "44093acaa8410b995eba1d4cf4cec5e06bdb0c50f93ae25b13d87f4708a09284",
+    "current_path": "results/vctk/fixed_threshold/distribusi_metrik.png"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/evaluated_methods.csv",
+    "bytes": 128,
+    "sha256": "30435f24b44eced12b57b022b3217f8eb52860fe56fbf0c8ce3667a1a044a3da",
+    "current_path": "results/vctk/fixed_threshold/evaluated_methods.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/execution_workload.csv",
+    "bytes": 199,
+    "sha256": "90c92102ccc380ad69ce4417fc722f8d244523fa8b3e641a48447c92ae6ecd58",
+    "current_path": "results/vctk/fixed_threshold/execution_workload.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/experiment_manifest.json",
+    "bytes": 7988,
+    "sha256": "8b9b15ea568d7f7ddce8bfa85b056c86a956d791a3d1af2ced8b801bdcbc2c5d",
+    "current_path": "results/vctk/fixed_threshold/experiment_manifest.json"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/frequency_band_mapping.csv",
+    "bytes": 234,
+    "sha256": "311968bfd8225a5dceb6cd6d9a50f2e0abf336b14ea0c0b9ae8682fc36fd024d",
+    "current_path": "results/vctk/fixed_threshold/frequency_band_mapping.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/paired_significance_tests.csv",
+    "bytes": 2769,
+    "sha256": "be0899da67bbe334a7b1a4a44a594d5e3220ecc46bd365fc955a3943d4c611f5",
+    "current_path": "results/vctk/fixed_threshold/paired_significance_tests.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/paper_table_values.csv",
+    "bytes": 1540,
+    "sha256": "dffdd024951e2baba736408ef30570ddd9ec9c51fd623af8a2ce7431e4d330cd",
+    "current_path": "results/vctk/fixed_threshold/paper_table_values.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/pareto_analysis.csv",
+    "bytes": 503,
+    "sha256": "01340109046c8e4350dd37e512f99cace81df4c36209f83b1954048dbf97f8ec",
+    "current_path": "results/vctk/fixed_threshold/pareto_analysis.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/pareto_tradeoff.png",
+    "bytes": 170378,
+    "sha256": "15d391c9b9a86bc70f576a738d81fc8698cb3fbd324b265b5d6430e3980a1fce",
+    "current_path": "results/vctk/fixed_threshold/pareto_tradeoff.png"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/per_sample_metrics.csv",
+    "bytes": 2441806,
+    "sha256": "586c5e5eaadbe94a5de41a0ca1ff75f524224b2c7a50ed6f6ad989996a73c6a8",
+    "current_path": "results/vctk/fixed_threshold/per_sample_metrics.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/per_sample_metrics_checkpoint.csv",
+    "bytes": 2441806,
+    "sha256": "586c5e5eaadbe94a5de41a0ca1ff75f524224b2c7a50ed6f6ad989996a73c6a8",
+    "current_path": "results/vctk/fixed_threshold/per_sample_metrics_checkpoint.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/proposed_vs_baselines.csv",
+    "bytes": 1876,
+    "sha256": "8edfcf9dbe291e3bfd1839f85ad9e6b2b42daf11de1d93a154a9a1fa3cdf3dfc",
+    "current_path": "results/vctk/fixed_threshold/proposed_vs_baselines.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/quality_calibration_scores.csv",
+    "bytes": 9457,
+    "sha256": "9f976b74d27c8547bcbc7cd4d00467afd967c002dfebebe024aa32b5e81046ab",
+    "current_path": "results/vctk/fixed_threshold/quality_calibration_scores.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/run_level_summary.csv",
+    "bytes": 5726,
+    "sha256": "cc407a8d6c3ae373dfb453603da459ff1010b8f1df9d5b50c89d28f93264ade1",
+    "current_path": "results/vctk/fixed_threshold/run_level_summary.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/sample_selection_manifest.csv",
+    "bytes": 77628,
+    "sha256": "1b0d011756640e5a52802ccc9c4f5a115c5c2e2cbe3d01780bc462ee7940fa65",
+    "current_path": "results/vctk/fixed_threshold/sample_selection_manifest.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/sample_selection_preview.csv",
+    "bytes": 77628,
+    "sha256": "1b0d011756640e5a52802ccc9c4f5a115c5c2e2cbe3d01780bc462ee7940fa65",
+    "current_path": "results/vctk/fixed_threshold/sample_selection_preview.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/spektrum_perturbasi_ushape.png",
+    "bytes": 411202,
+    "sha256": "a70af4b61c0ec29e33691e0b0cc2aa68cc6cc92a7afed0fbcff0c0a6ae031285",
+    "current_path": "results/vctk/fixed_threshold/spektrum_perturbasi_ushape.png"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/summary_statistics.csv",
+    "bytes": 12102,
+    "sha256": "f5f0aa51bceb413689372321bf070dded7bb18abc630204d663ab300d9199f38",
+    "current_path": "results/vctk/fixed_threshold/summary_statistics.csv"
+  },
+  {
+    "original_path": "hasil_revisi_vctk/tabel_hasil_dengan_ci95.png",
+    "bytes": 286733,
+    "sha256": "5eb9dd056e77d437cb4089a4b81fd859494e14a6e190ae1654dc0435f9497d0d",
+    "current_path": "results/vctk/fixed_threshold/tabel_hasil_dengan_ci95.png"
+  },
+  {
+    "original_path": "libri/.ipynb_checkpoints/audio_level_audit-checkpoint.csv",
+    "bytes": 121429,
+    "sha256": "52ed3f071a053ce32e2e49d1dcc4c6574a0a825963cf0b8c4e03630d59493c82",
+    "current_path": "results/libritts/calibrated_asv/.ipynb_checkpoints/audio_level_audit-checkpoint.csv"
+  },
+  {
+    "original_path": "libri/asv_calibration_scores.csv",
+    "bytes": 505426,
+    "sha256": "451a7f9d1d730f762d4baa6abedb834177302f044c63ad77d6e017ebb8e96a7c",
+    "current_path": "results/libritts/calibrated_asv/asv_calibration_scores.csv"
+  },
+  {
+    "original_path": "libri/asv_centroid_recalibration_status.csv",
+    "bytes": 198,
+    "sha256": "b9fab523b330fcdcec1ffcbb4a24cf4f84de0f9dad7a54568d6eabf80714c039",
+    "current_path": "results/libritts/calibrated_asv/asv_centroid_recalibration_status.csv"
+  },
+  {
+    "original_path": "libri/asv_threshold_audit.csv",
+    "bytes": 428,
+    "sha256": "2bb4ff4ce4be6609618f3eb88e7f44183014d238d4405aea0d038b0e62deb9fc",
+    "current_path": "results/libritts/calibrated_asv/asv_threshold_audit.csv"
+  },
+  {
+    "original_path": "libri/asv_threshold_sensitivity.csv",
+    "bytes": 339,
+    "sha256": "0da509b72f996ab6399b478d455f14f66b19a2b42f88223a4185241403856cb0",
+    "current_path": "results/libritts/calibrated_asv/asv_threshold_sensitivity.csv"
+  },
+  {
+    "original_path": "libri/audio_examples/Dynamic_PGD_(No_U-Shape).wav",
+    "bytes": 88684,
+    "sha256": "9c6948caffc5489856421f5381008706ee6be28ae4793b4021278d03fd52c737",
+    "current_path": "results/libritts/calibrated_asv/audio_examples/Dynamic_PGD_(No_U-Shape).wav"
+  },
+  {
+    "original_path": "libri/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav",
+    "bytes": 88684,
+    "sha256": "1ba4de0780712d14c5a9ade27935d1d862db9173bce884be4fec1247f4b16b80",
+    "current_path": "results/libritts/calibrated_asv/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav"
+  },
+  {
+    "original_path": "libri/audio_examples/Proposed_(Dynamic_+_U-Shape).wav",
+    "bytes": 88684,
+    "sha256": "c07f17830ab740fb9ed95b7d6e8dd1211e51136d6625c35ff315f08328ffeff4",
+    "current_path": "results/libritts/calibrated_asv/audio_examples/Proposed_(Dynamic_+_U-Shape).wav"
+  },
+  {
+    "original_path": "libri/audio_examples/Random_Noise.wav",
+    "bytes": 88684,
+    "sha256": "39b5599a8bb97511b7ac2ddabb525d60f5739557897ae345660641374137a2fc",
+    "current_path": "results/libritts/calibrated_asv/audio_examples/Random_Noise.wav"
+  },
+  {
+    "original_path": "libri/audio_examples/Static_PGD.wav",
+    "bytes": 88684,
+    "sha256": "9c6948caffc5489856421f5381008706ee6be28ae4793b4021278d03fd52c737",
+    "current_path": "results/libritts/calibrated_asv/audio_examples/Static_PGD.wav"
+  },
+  {
+    "original_path": "libri/audio_examples/Undefended.wav",
+    "bytes": 88684,
+    "sha256": "08f842d350df6f85e7ebba419508a847359b632cc23b7d26215c822f42a411ca",
+    "current_path": "results/libritts/calibrated_asv/audio_examples/Undefended.wav"
+  },
+  {
+    "original_path": "libri/audio_level_audit.csv",
+    "bytes": 121429,
+    "sha256": "52ed3f071a053ce32e2e49d1dcc4c6574a0a825963cf0b8c4e03630d59493c82",
+    "current_path": "results/libritts/calibrated_asv/audio_level_audit.csv"
+  },
+  {
+    "original_path": "libri/audio_level_summary.csv",
+    "bytes": 392,
+    "sha256": "5c027afb3ef85bd23937d70e15a37282e1c208cf38ba4636eae1ed77fafc5483",
+    "current_path": "results/libritts/calibrated_asv/audio_level_summary.csv"
+  },
+  {
+    "original_path": "libri/contoh_mel_spectrogram.png",
+    "bytes": 593033,
+    "sha256": "4249c956064fa6d8fc990cc17c4d50a07f375b9a807e8921aceaba11ed3db055",
+    "current_path": "results/libritts/calibrated_asv/contoh_mel_spectrogram.png"
+  },
+  {
+    "original_path": "libri/data_count_preview.csv",
+    "bytes": 102,
+    "sha256": "577d41419fad26e4872182cd057942c7341c107cff3a6302ca73fb98768f3ccc",
+    "current_path": "results/libritts/calibrated_asv/data_count_preview.csv"
+  },
+  {
+    "original_path": "libri/distribusi_metrik.png",
+    "bytes": 208837,
+    "sha256": "667bacd1539482f320cae0a57847c94dd491d5b61dc570ded7e16e1d31923b84",
+    "current_path": "results/libritts/calibrated_asv/distribusi_metrik.png"
+  },
+  {
+    "original_path": "libri/evaluated_methods.csv",
+    "bytes": 128,
+    "sha256": "30435f24b44eced12b57b022b3217f8eb52860fe56fbf0c8ce3667a1a044a3da",
+    "current_path": "results/libritts/calibrated_asv/evaluated_methods.csv"
+  },
+  {
+    "original_path": "libri/execution_workload.csv",
+    "bytes": 199,
+    "sha256": "90c92102ccc380ad69ce4417fc722f8d244523fa8b3e641a48447c92ae6ecd58",
+    "current_path": "results/libritts/calibrated_asv/execution_workload.csv"
+  },
+  {
+    "original_path": "libri/experiment_manifest.json",
+    "bytes": 8300,
+    "sha256": "9188738f916d83a078ad0a6e47a4412482c77c8d52f790b5c8d056bdf7401f30",
+    "current_path": "results/libritts/calibrated_asv/experiment_manifest.json"
+  },
+  {
+    "original_path": "libri/frequency_band_mapping.csv",
+    "bytes": 234,
+    "sha256": "311968bfd8225a5dceb6cd6d9a50f2e0abf336b14ea0c0b9ae8682fc36fd024d",
+    "current_path": "results/libritts/calibrated_asv/frequency_band_mapping.csv"
+  },
+  {
+    "original_path": "libri/paired_significance_tests.csv",
+    "bytes": 2917,
+    "sha256": "c7fb0b996a90204ce216964b002ccecfca81e965618447318d9cdac9fb5d429b",
+    "current_path": "results/libritts/calibrated_asv/paired_significance_tests.csv"
+  },
+  {
+    "original_path": "libri/paper_table_values.csv",
+    "bytes": 1581,
+    "sha256": "4526510d5aa501244cd3c27f585eb99240ebd6b158966b775a02407727d3e72f",
+    "current_path": "results/libritts/calibrated_asv/paper_table_values.csv"
+  },
+  {
+    "original_path": "libri/pareto_analysis.csv",
+    "bytes": 475,
+    "sha256": "26b680f15870380d3e60413c2c7f8d6426ef5b1218d2b29e769f3ab6b0f04c45",
+    "current_path": "results/libritts/calibrated_asv/pareto_analysis.csv"
+  },
+  {
+    "original_path": "libri/pareto_tradeoff.png",
+    "bytes": 169760,
+    "sha256": "37f7acf549a58f01610217b6f719cd4920b7d9f8dc6684e9cb4235cf6ce652da",
+    "current_path": "results/libritts/calibrated_asv/pareto_tradeoff.png"
+  },
+  {
+    "original_path": "libri/per_sample_metrics.csv",
+    "bytes": 2646893,
+    "sha256": "15fb4aa8a6203b18edcc1f1fab361ebe34910ffba98c366d1b859f941b5fcee9",
+    "current_path": "results/libritts/calibrated_asv/per_sample_metrics.csv"
+  },
+  {
+    "original_path": "libri/per_sample_metrics_checkpoint.csv",
+    "bytes": 2646893,
+    "sha256": "15fb4aa8a6203b18edcc1f1fab361ebe34910ffba98c366d1b859f941b5fcee9",
+    "current_path": "results/libritts/calibrated_asv/per_sample_metrics_checkpoint.csv"
+  },
+  {
+    "original_path": "libri/postprocess_validation.json",
+    "bytes": 636,
+    "sha256": "991e8a213d68296a68d909efbd8d630dc3db56f228ae77fc16e40e1bedaebabc",
+    "current_path": "results/libritts/calibrated_asv/postprocess_validation.json"
+  },
+  {
+    "original_path": "libri/proposed_vs_baselines.csv",
+    "bytes": 1741,
+    "sha256": "c04f1ed6f17a8e6bdb519aa6e815b19993463271d49a733501abc81a46590511",
+    "current_path": "results/libritts/calibrated_asv/proposed_vs_baselines.csv"
+  },
+  {
+    "original_path": "libri/quality_calibration_scores.csv",
+    "bytes": 12759,
+    "sha256": "1230863c8817c732fbe1f9aed4cf5589ad2a81d31c39971aeaa2269ba25a669f",
+    "current_path": "results/libritts/calibrated_asv/quality_calibration_scores.csv"
+  },
+  {
+    "original_path": "libri/routing_behavior_per_speaker.csv",
+    "bytes": 5042,
+    "sha256": "b40961fc80393969bb3e6e1f3de368d2021117937b5e142c35cb174e81a6666c",
+    "current_path": "results/libritts/calibrated_asv/routing_behavior_per_speaker.csv"
+  },
+  {
+    "original_path": "libri/routing_behavior_summary.csv",
+    "bytes": 482,
+    "sha256": "7bf6cd5c8b90b802a6707f8fd80d2ba08bf49a2a694ef6580cd5b6a66c2ccca7",
+    "current_path": "results/libritts/calibrated_asv/routing_behavior_summary.csv"
+  },
+  {
+    "original_path": "libri/run_level_summary.csv",
+    "bytes": 6073,
+    "sha256": "a7c9a0cfabb71bf6d672e16544b6a73676acfe97500dcd34bce782d7418e4d5a",
+    "current_path": "results/libritts/calibrated_asv/run_level_summary.csv"
+  },
+  {
+    "original_path": "libri/sample_selection_manifest.csv",
+    "bytes": 80251,
+    "sha256": "d6fc54a6278c07107430ac8fb9134a56f904c82674106e685bbceefdcbeca7f6",
+    "current_path": "results/libritts/calibrated_asv/sample_selection_manifest.csv"
+  },
+  {
+    "original_path": "libri/sample_selection_preview.csv",
+    "bytes": 80251,
+    "sha256": "d6fc54a6278c07107430ac8fb9134a56f904c82674106e685bbceefdcbeca7f6",
+    "current_path": "results/libritts/calibrated_asv/sample_selection_preview.csv"
+  },
+  {
+    "original_path": "libri/speaker_level_summary.csv",
+    "bytes": 76662,
+    "sha256": "d2a97a15616b65634afc9a6f0f389964cc3a813d9853c2fad8959fb067a0e671",
+    "current_path": "results/libritts/calibrated_asv/speaker_level_summary.csv"
+  },
+  {
+    "original_path": "libri/spektrum_perturbasi_ushape.png",
+    "bytes": 389561,
+    "sha256": "ac761b589321cc23112d413e23fe6b08fa46691863b2af13936f3d4093fc961c",
+    "current_path": "results/libritts/calibrated_asv/spektrum_perturbasi_ushape.png"
+  },
+  {
+    "original_path": "libri/summary_statistics.csv",
+    "bytes": 17407,
+    "sha256": "6152ee466deb3e5c524fe37558bff01f7e47a245c8186b947f3e08576d4fbeaf",
+    "current_path": "results/libritts/calibrated_asv/summary_statistics.csv"
+  },
+  {
+    "original_path": "libri/tabel_hasil_dengan_ci95.png",
+    "bytes": 303235,
+    "sha256": "b4731cfb1e34098d0139577b54e35c15802513d9ec4eeb178f9a42b1ee98ca41",
+    "current_path": "results/libritts/calibrated_asv/tabel_hasil_dengan_ci95.png"
+  },
+  {
+    "original_path": "libritts-terbaru.py",
+    "bytes": 66044,
+    "sha256": "6327c9f69dc229f3306b0ca13dda641e3ba3a8d9be2670b1e67bed4626adb330",
+    "current_path": "archive/original_sources/libritts-terbaru.py"
+  },
+  {
+    "original_path": "static_ushape_factorial_ablation_kaggle_Libri.ipynb",
+    "bytes": 76830,
+    "sha256": "e24904e86be0c7dee11e7ade2ea7aa5863d3a43d404b8fcf6ea2a31335b1a999",
+    "current_path": "archive/original_sources/static_ushape_factorial_ablation_kaggle_Libri.ipynb"
+  },
+  {
+    "original_path": "static_ushape_factorial_ablation_kaggle_vctk.ipynb",
+    "bytes": 76825,
+    "sha256": "c49c8011d65653f20dd8a4dcacfd2d6b19f470b97ef581fe887b7a905f4d20bd",
+    "current_path": "archive/original_sources/static_ushape_factorial_ablation_kaggle_vctk.ipynb"
+  },
+  {
+    "original_path": "vctk/asv_calibration_scores.csv",
+    "bytes": 541807,
+    "sha256": "5633ca2487a577872c7df491a291e3035973ff509692ef280c75a64e2fbaec1c",
+    "current_path": "results/vctk/calibrated_asv/asv_calibration_scores.csv"
+  },
+  {
+    "original_path": "vctk/asv_centroid_recalibration_status.csv",
+    "bytes": 194,
+    "sha256": "418b4eaa167c03ba5dfb1327211a96bf99a97e4bb9d3951f380033278125cec9",
+    "current_path": "results/vctk/calibrated_asv/asv_centroid_recalibration_status.csv"
+  },
+  {
+    "original_path": "vctk/asv_threshold_audit.csv",
+    "bytes": 413,
+    "sha256": "e7f3e88ba668e12aaa3c7820037e3e31c172dd437853d1ad16ee312b9fdc4a46",
+    "current_path": "results/vctk/calibrated_asv/asv_threshold_audit.csv"
+  },
+  {
+    "original_path": "vctk/asv_threshold_sensitivity.csv",
+    "bytes": 328,
+    "sha256": "a37c08efd64fcdc566a17639a05393a513eeeff30b7cba358503b6f520650eed",
+    "current_path": "results/vctk/calibrated_asv/asv_threshold_sensitivity.csv"
+  },
+  {
+    "original_path": "vctk/audio_examples/Dynamic_PGD_(No_U-Shape).wav",
+    "bytes": 95674,
+    "sha256": "11a7ddca53bea7c2636df2efe8b31df968282013d474bc60e14cb880254b91a1",
+    "current_path": "results/vctk/calibrated_asv/audio_examples/Dynamic_PGD_(No_U-Shape).wav"
+  },
+  {
+    "original_path": "vctk/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav",
+    "bytes": 95674,
+    "sha256": "932d174a72b2c8ed15a692cfc7a795bdeee7ecde251f1eca250c895edd69e886",
+    "current_path": "results/vctk/calibrated_asv/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav"
+  },
+  {
+    "original_path": "vctk/audio_examples/Proposed_(Dynamic_+_U-Shape).wav",
+    "bytes": 95674,
+    "sha256": "78a51df538dace8f0c42ef5e9a05a9ab2e07a16247465a95ffd8d027909be7e3",
+    "current_path": "results/vctk/calibrated_asv/audio_examples/Proposed_(Dynamic_+_U-Shape).wav"
+  },
+  {
+    "original_path": "vctk/audio_examples/Random_Noise.wav",
+    "bytes": 95674,
+    "sha256": "ff37a894cdae368da3bd6a1f68a6094631da8a5f90d4ad6c713cef848037e62f",
+    "current_path": "results/vctk/calibrated_asv/audio_examples/Random_Noise.wav"
+  },
+  {
+    "original_path": "vctk/audio_examples/Static_PGD.wav",
+    "bytes": 95674,
+    "sha256": "5d9cf3fa6c2bb087127de40267207f11294ce61bc0a0563c66f9fecc2adf4055",
+    "current_path": "results/vctk/calibrated_asv/audio_examples/Static_PGD.wav"
+  },
+  {
+    "original_path": "vctk/audio_examples/Undefended.wav",
+    "bytes": 95674,
+    "sha256": "c4d7a13511e8e0767084b061c278ea497cde6620ca6dd963c43f954e97f42288",
+    "current_path": "results/vctk/calibrated_asv/audio_examples/Undefended.wav"
+  },
+  {
+    "original_path": "vctk/audio_level_audit.csv",
+    "bytes": 123379,
+    "sha256": "bcda81cbc848466fd27b0a891274d1f7fe6a536c31161577c146f0c4000d287e",
+    "current_path": "results/vctk/calibrated_asv/audio_level_audit.csv"
+  },
+  {
+    "original_path": "vctk/audio_level_summary.csv",
+    "bytes": 382,
+    "sha256": "63bf72322dc77dd27b644ae4269e4492f7a3760256eddf24025e35962b41a7cf",
+    "current_path": "results/vctk/calibrated_asv/audio_level_summary.csv"
+  },
+  {
+    "original_path": "vctk/contoh_mel_spectrogram.png",
+    "bytes": 546989,
+    "sha256": "8583f8e947d7fc274c94ffcfabdde18c83cab30bf12e8a359c27af67ebfe0b83",
+    "current_path": "results/vctk/calibrated_asv/contoh_mel_spectrogram.png"
+  },
+  {
+    "original_path": "vctk/data_count_preview.csv",
+    "bytes": 102,
+    "sha256": "577d41419fad26e4872182cd057942c7341c107cff3a6302ca73fb98768f3ccc",
+    "current_path": "results/vctk/calibrated_asv/data_count_preview.csv"
+  },
+  {
+    "original_path": "vctk/distribusi_metrik.png",
+    "bytes": 207775,
+    "sha256": "e9f0e85806447f8ea2f40104a0986bfd0c109629798a7e9bb56ac1e033fbf5ae",
+    "current_path": "results/vctk/calibrated_asv/distribusi_metrik.png"
+  },
+  {
+    "original_path": "vctk/evaluated_methods.csv",
+    "bytes": 128,
+    "sha256": "30435f24b44eced12b57b022b3217f8eb52860fe56fbf0c8ce3667a1a044a3da",
+    "current_path": "results/vctk/calibrated_asv/evaluated_methods.csv"
+  },
+  {
+    "original_path": "vctk/execution_workload.csv",
+    "bytes": 199,
+    "sha256": "90c92102ccc380ad69ce4417fc722f8d244523fa8b3e641a48447c92ae6ecd58",
+    "current_path": "results/vctk/calibrated_asv/execution_workload.csv"
+  },
+  {
+    "original_path": "vctk/experiment_manifest.json",
+    "bytes": 8267,
+    "sha256": "105c2a27380db771596735d088f579e02b5b3e707c6e34fc78fc5a08f85a63cd",
+    "current_path": "results/vctk/calibrated_asv/experiment_manifest.json"
+  },
+  {
+    "original_path": "vctk/frequency_band_mapping.csv",
+    "bytes": 234,
+    "sha256": "311968bfd8225a5dceb6cd6d9a50f2e0abf336b14ea0c0b9ae8682fc36fd024d",
+    "current_path": "results/vctk/calibrated_asv/frequency_band_mapping.csv"
+  },
+  {
+    "original_path": "vctk/paired_significance_tests.csv",
+    "bytes": 2908,
+    "sha256": "1b17a938fa42999c462afb947d5ab0523f6bb6dd91845eb9b21e8a27f11891b0",
+    "current_path": "results/vctk/calibrated_asv/paired_significance_tests.csv"
+  },
+  {
+    "original_path": "vctk/paper_table_values.csv",
+    "bytes": 1579,
+    "sha256": "395e6b4bd70374207e4d32d4ecfe2d4c30a71ffc73c232141a72ead437ac9305",
+    "current_path": "results/vctk/calibrated_asv/paper_table_values.csv"
+  },
+  {
+    "original_path": "vctk/pareto_analysis.csv",
+    "bytes": 474,
+    "sha256": "041242e6505fb666f6151169ecd5a3ac08d7adf87a00d9afa613d6632fee79c5",
+    "current_path": "results/vctk/calibrated_asv/pareto_analysis.csv"
+  },
+  {
+    "original_path": "vctk/pareto_tradeoff.png",
+    "bytes": 167959,
+    "sha256": "9a8171131dbb5a4b2b0c0dbd3ff04bb7b3095fb2b42da3657d907352afb129f6",
+    "current_path": "results/vctk/calibrated_asv/pareto_tradeoff.png"
+  },
+  {
+    "original_path": "vctk/per_sample_metrics.csv",
+    "bytes": 2665043,
+    "sha256": "0928c376d6b4bde2797e4ace854c4a4f491b7266757556917ba81944b7e28d87",
+    "current_path": "results/vctk/calibrated_asv/per_sample_metrics.csv"
+  },
+  {
+    "original_path": "vctk/per_sample_metrics_checkpoint.csv",
+    "bytes": 2665043,
+    "sha256": "0928c376d6b4bde2797e4ace854c4a4f491b7266757556917ba81944b7e28d87",
+    "current_path": "results/vctk/calibrated_asv/per_sample_metrics_checkpoint.csv"
+  },
+  {
+    "original_path": "vctk/postprocess_validation.json",
+    "bytes": 636,
+    "sha256": "e5877d4116226449849b529ca96b4ff3b8a68663ac46c0f973a7a84cf6b9fb5b",
+    "current_path": "results/vctk/calibrated_asv/postprocess_validation.json"
+  },
+  {
+    "original_path": "vctk/proposed_vs_baselines.csv",
+    "bytes": 1764,
+    "sha256": "343f9e1ac4ea3a58150ca5f6d37a1fb00e877b436b30635cd4f947726234b9de",
+    "current_path": "results/vctk/calibrated_asv/proposed_vs_baselines.csv"
+  },
+  {
+    "original_path": "vctk/quality_calibration_scores.csv",
+    "bytes": 9457,
+    "sha256": "9f976b74d27c8547bcbc7cd4d00467afd967c002dfebebe024aa32b5e81046ab",
+    "current_path": "results/vctk/calibrated_asv/quality_calibration_scores.csv"
+  },
+  {
+    "original_path": "vctk/routing_behavior_per_speaker.csv",
+    "bytes": 5044,
+    "sha256": "c89c2a3eddbb57e3f4d04e44e3b8be54a06f225bc4dba54a88e8589fa44ee342",
+    "current_path": "results/vctk/calibrated_asv/routing_behavior_per_speaker.csv"
+  },
+  {
+    "original_path": "vctk/routing_behavior_summary.csv",
+    "bytes": 475,
+    "sha256": "e4e5704827a698206e710b458fff466d9bb196794bb229a74e6e564dcf58f5e2",
+    "current_path": "results/vctk/calibrated_asv/routing_behavior_summary.csv"
+  },
+  {
+    "original_path": "vctk/run_level_summary.csv",
+    "bytes": 6008,
+    "sha256": "abac93f74118771e158984a70a8f5eb29cd4f770660dfe734854cae961ca3794",
+    "current_path": "results/vctk/calibrated_asv/run_level_summary.csv"
+  },
+  {
+    "original_path": "vctk/sample_selection_manifest.csv",
+    "bytes": 77628,
+    "sha256": "1b0d011756640e5a52802ccc9c4f5a115c5c2e2cbe3d01780bc462ee7940fa65",
+    "current_path": "results/vctk/calibrated_asv/sample_selection_manifest.csv"
+  },
+  {
+    "original_path": "vctk/sample_selection_preview.csv",
+    "bytes": 77628,
+    "sha256": "1b0d011756640e5a52802ccc9c4f5a115c5c2e2cbe3d01780bc462ee7940fa65",
+    "current_path": "results/vctk/calibrated_asv/sample_selection_preview.csv"
+  },
+  {
+    "original_path": "vctk/speaker_level_summary.csv",
+    "bytes": 76617,
+    "sha256": "4f23213d141a898767225138c76fbb37fc3f81a1453dfb693702b8e81709c6c3",
+    "current_path": "results/vctk/calibrated_asv/speaker_level_summary.csv"
+  },
+  {
+    "original_path": "vctk/spektrum_perturbasi_ushape.png",
+    "bytes": 411202,
+    "sha256": "a70af4b61c0ec29e33691e0b0cc2aa68cc6cc92a7afed0fbcff0c0a6ae031285",
+    "current_path": "results/vctk/calibrated_asv/spektrum_perturbasi_ushape.png"
+  },
+  {
+    "original_path": "vctk/summary_statistics.csv",
+    "bytes": 17333,
+    "sha256": "c3c4eb619c72dd8e3193ea2bfa32fb578729380487cfc75c10ef8a03dd35f1b8",
+    "current_path": "results/vctk/calibrated_asv/summary_statistics.csv"
+  },
+  {
+    "original_path": "vctk/tabel_hasil_dengan_ci95.png",
+    "bytes": 300865,
+    "sha256": "60dad455d16f155dcd37c464c5d07eafe837ce01afcc13263a97b7da06b898a6",
+    "current_path": "results/vctk/calibrated_asv/tabel_hasil_dengan_ci95.png"
+  },
+  {
+    "original_path": "vctk-terbaru.py",
+    "bytes": 66080,
+    "sha256": "8b17b3dcab87ec77deaff1d89e34d9c33e191f74e4aa40b5346c8180fecb0b66",
+    "current_path": "archive/original_sources/vctk-terbaru.py"
+  }
+]

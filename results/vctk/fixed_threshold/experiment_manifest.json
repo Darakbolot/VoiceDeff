@@ -1,0 +1,188 @@
+{
+  "config": {
+    "dataset_name": "VCTK",
+    "dataset_glob": "english-multispeaker-corpus-for-voice-cloning/**/*.wav",
+    "output_dir": "hasil_revisi_vctk",
+    "sample_rate": 16000,
+    "segment_seconds": 4.0,
+    "minimum_seconds": 1.0,
+    "calibration_speakers": 20,
+    "calibration_utterances_per_speaker": 5,
+    "test_speakers": 40,
+    "enrollment_utterances_per_speaker": 2,
+    "test_utterances_per_speaker": 8,
+    "expected_unique_utterances": 500,
+    "selection_seed": 2026,
+    "normalize_input_level": true,
+    "input_target_rms_dbfs": -26.0,
+    "input_peak_limit": 0.95,
+    "run_seeds": [
+      42,
+      43,
+      44
+    ],
+    "num_iterations": 1000,
+    "step_size": 0.001,
+    "epsilon_max": 0.12,
+    "baseline_noise": 0.02,
+    "checkpoint_every": 1,
+    "wavlm_checkpoint": "microsoft/wavlm-base-plus-sv",
+    "hubert_checkpoint": "facebook/hubert-base-ls960",
+    "semantic_layer": 2,
+    "asr_checkpoint": "facebook/wav2vec2-base-960h",
+    "run_asr_wer": true,
+    "n_fft": 512,
+    "win_length": 512,
+    "hop_length": 160,
+    "stft_center": true,
+    "stft_normalized": false,
+    "phase1_high_cut_hz": 2500.0,
+    "ushape_low_end_hz": 1406.25,
+    "ushape_mid_end_hz": 3750.0,
+    "phase1_high_scale": 0.05,
+    "ushape_mid_scale": 0.01,
+    "ushape_high_scale": 0.15,
+    "high_frequency_start_hz": 3750.0,
+    "n_mels": 128,
+    "mel_fmin": 0.0,
+    "mel_fmax": 8000.0,
+    "mel_scale": "htk",
+    "mel_norm": null,
+    "mel_power": 2.0,
+    "formant_mel_bins": 45,
+    "static_weights": {
+      "identity": 150.0,
+      "formant": 30.0,
+      "hubert_identity": 20.0,
+      "semantic": 5.0
+    },
+    "phase1_weights": {
+      "identity": 150.0,
+      "formant": 30.0,
+      "hubert_identity": 20.0,
+      "semantic": 5.0
+    },
+    "phase2_weights": {
+      "identity": 15.0,
+      "formant": 300.0,
+      "hubert_identity": 20.0,
+      "semantic": 20.0
+    },
+    "routing_threshold": 0.24,
+    "asv_evaluation_threshold": 0.25,
+    "quality_calibration_snr_db": 10.0,
+    "quality_metric_name": "SQUIM_MOS",
+    "save_audio_examples": true,
+    "strict_paper_method": true
+  },
+  "dataset": {
+    "name": "VCTK",
+    "selected_speakers": 60,
+    "selected_utterances": 500,
+    "counts_by_split_role": {
+      "('calibration', 'calibration')": 100,
+      "('test', 'enrollment')": 80,
+      "('test', 'probe')": 320
+    },
+    "selection_rule": "speaker-disjoint; complete utterances in [minimum_seconds, segment_seconds]; original duration retained; no truncation or padding",
+    "input_level_protocol": "DC removal and RMS normalization to -26 dBFS with peak ceiling 0.95; identical for both datasets; pitch and timing unchanged",
+    "speaker_id_rule": "parent directory pXXX",
+    "duplicate_recording_rule": "VCTK _mic1/_mic2 recordings sharing a source utterance ID are deduplicated before sampling; mic1 is retained deterministically",
+    "statistical_scope": "pilot/debug experiment only when probe count < 30; do not use 4-probe results for paper-level significance claims"
+  },
+  "operational_definitions": {
+    "R": "L2-normalized embeddings from microsoft/wavlm-base-plus-sv",
+    "H": "mean-pooled last hidden state of facebook/hubert-base-ls960",
+    "F": "mean-pooled hidden_states[2] of facebook/hubert-base-ls960; this is not called a U-Net",
+    "R_ref_H_ref": "speaker-reference centroids computed only from the test speaker's enrollment utterance(s); the protected probe itself is excluded",
+    "C_opp_H_opp": "same hardest calibration-speaker centroid selected by maximum WavLM cosine similarity; calibration speakers are disjoint from test speakers",
+    "evaluation_reference": "the same held-out enrollment centroid used by the ASV verifier and routing score, preventing train/evaluation reference mismatch",
+    "s_asv_scale": "raw cosine similarity in [-1, 1]",
+    "asv_accept_rate": "100 * mean(s_asv >= calibrated ASV threshold)",
+    "SQUIM_proxy_DSR": "100 * mean((s_asv < fixed paper ASV threshold 0.25) AND (SQUIM_MOS < calibration-derived SQUIM threshold))",
+    "privacy_utility_success": "100 * mean((s_asv < calibrated ASV threshold) AND (STOI >= calibration-derived utility threshold))",
+    "primary_endpoint": "privacy_utility_success; SQUIM proxy DSR is secondary because degrading the protected source conflicts with transparency",
+    "quality_note": "SQUIM-MOS is reported by name; it is not NISQA and is never synthetically imputed. Therefore this notebook does not claim to reproduce the paper's NISQA<3.0 DSR exactly.",
+    "L_identity": "cos(R_adv,R_ref)-cos(R_adv,C_opp), minimized",
+    "L_hubert_identity": "cos(H_adv,H_ref)-cos(H_adv,H_opp), minimized",
+    "L_formant": "cosine similarity of the first 45 log-Mel bins, minimized to cause formant distortion",
+    "L_semantic": "implemented as 1-cos(F_adv,F_ref) with positive weights 5/20; gradient-equivalent to the paper's -5/-20 times cosine similarity"
+  },
+  "method_ablation": {
+    "Undefended": "clean probe without perturbation",
+    "Random Noise": "uniform random perturbation projected to the same sample-wise dynamic bound",
+    "Static PGD": "fixed Phase-1 loss weights for every iteration; no frequency-domain gradient filter",
+    "Dynamic PGD (No U-Shape)": "the paper's threshold-routed Phase-1/Phase-2 loss weights without a frequency-domain gradient filter",
+    "High-Frequency PGD (3.75-8 kHz)": "fixed-weight PGD whose STFT gradient is zeroed below 3.75 kHz; not ultrasonic at 16 kHz",
+    "Proposed (Dynamic + U-Shape)": "the paper's threshold-routed Phase-1/Phase-2 weights and exact STFT gradient scales: Phase 1 >=2.5 kHz x0.05; Phase 2 <1.4 kHz x1, 1.4-3.75 kHz x0.01, >3.75 kHz x0.15",
+    "fairness": "all PGD variants use identical iteration count, step size, perturbation bound, sample order, and paired initialization seed"
+  },
+  "stft": {
+    "sample_rate_hz": 16000,
+    "n_fft": 512,
+    "win_length": 512,
+    "hop_length": 160,
+    "window": "periodic Hann",
+    "center": true,
+    "normalized": false,
+    "onesided": true,
+    "pgd_filter_order": "raw loss gradient -> STFT band scaling -> ISTFT -> L-infinity gradient clipping -> alpha-scaled update, matching Equations (12)-(14) and the narrated gradient-clipping loop",
+    "frequency_resolution_hz": 31.25,
+    "nyquist_hz": 8000.0,
+    "cutoffs": {
+      "phase1_high_cut": {
+        "hz": 2500.0,
+        "nearest_bin": 80
+      },
+      "ushape_low_end": {
+        "hz": 1406.25,
+        "nearest_bin": 45
+      },
+      "ushape_mid_end": {
+        "hz": 3750.0,
+        "nearest_bin": 120
+      },
+      "high_frequency_start": {
+        "hz": 3750.0,
+        "nearest_bin": 120
+      }
+    },
+    "terminology": "All bands are audible at 16 kHz; the upper band is called high-frequency, not ultrasonic.",
+    "formant_mel_bins": 45,
+    "formant_mel_range_hz": [
+      0.0,
+      975.9752233676257
+    ]
+  },
+  "calibration": {
+    "paper_asv_evaluation_threshold": 0.25,
+    "calibration_eer_threshold_for_audit_only": 0.8237172961235046,
+    "asv_eer": 0.1175,
+    "routing_threshold": 0.24,
+    "threshold_policy": "The fixed 0.24 routing and 0.25 evaluation operating points from the paper are preserved. The speaker-disjoint calibration EER threshold is reported for sensitivity/audit and is not substituted into the method.",
+    "quality_metric": "SQUIM_MOS",
+    "quality_threshold": 4.386672019958496,
+    "quality_eer": 0.005,
+    "degraded_anchor_snr_db": 10.0,
+    "utility_metric": "STOI",
+    "utility_threshold": 0.9710161365288896,
+    "utility_eer": 0.0
+  },
+  "runtime": {
+    "device": "cuda",
+    "platform": "Linux-5.4.0-155-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "cuda_available": true,
+    "gpu": "NVIDIA A100-SXM4-40GB MIG 7g.40gb",
+    "packages": {
+      "torch": "2.6.0+cu118",
+      "torchaudio": "2.6.0+cu118",
+      "transformers": "5.15.0",
+      "librosa": "0.11.0",
+      "pesq": "0.0.4",
+      "pystoi": "0.4.1",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2"
+    }
+  }
+}

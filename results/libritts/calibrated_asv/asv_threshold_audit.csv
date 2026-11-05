@@ -1,0 +1,4 @@
+threshold_name,threshold,operational_role,used_for_primary_evaluation,false_reject_rate,false_accept_rate,n_genuine,n_impostor
+internal_routing_target,0.24,optimization routing only,False,0.0,1.0,600,600
+legacy_fixed_0.25_audit,0.25,sensitivity audit only,False,0.0,0.9983333333333333,600,600
+calibrated_eer_evaluation,0.8544071912765503,"primary ASV evaluation, DSR, and privacy-utility",True,0.085,0.08333333333333333,600,600

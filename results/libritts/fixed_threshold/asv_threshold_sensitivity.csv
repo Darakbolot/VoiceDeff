@@ -1,0 +1,7 @@
+method,fixed_paper_threshold_rejection_rate,calibration_eer_threshold_rejection_rate
+Dynamic PGD (No U-Shape),43.020833333333336,100.0
+High-Frequency PGD (3.75-8 kHz),13.020833333333334,100.0
+Proposed (Dynamic + U-Shape),27.083333333333332,100.0
+Random Noise,0.0,31.041666666666668
+Static PGD,44.27083333333333,100.0
+Undefended,0.0,4.0625

@@ -1,0 +1,19 @@
+proposed,baseline,metric,n_pairs,test,statistic,p_value,holm_significant_0.05
+Proposed (Dynamic + U-Shape),Static PGD,s_asv,320,two-sided paired Wilcoxon on per-utterance seed means,247.0,3.2846936698913507e-53,True
+Proposed (Dynamic + U-Shape),Static PGD,pesq,320,two-sided paired Wilcoxon on per-utterance seed means,1.0,3.289640671845196e-54,True
+Proposed (Dynamic + U-Shape),Static PGD,stoi,320,two-sided paired Wilcoxon on per-utterance seed means,0.0,3.258866789206682e-54,True
+Proposed (Dynamic + U-Shape),Static PGD,ssim,320,two-sided paired Wilcoxon on per-utterance seed means,0.0,3.258866789206682e-54,True
+Proposed (Dynamic + U-Shape),Static PGD,squim_mos,320,two-sided paired Wilcoxon on per-utterance seed means,13668.0,4.1032631918251845e-13,True
+Proposed (Dynamic + U-Shape),Static PGD,privacy_utility_success,320,exact paired McNemar on per-utterance majority across seeds,1.0,1.0,False
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),s_asv,320,two-sided paired Wilcoxon on per-utterance seed means,2672.0,7.200345756164982e-44,True
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),pesq,320,two-sided paired Wilcoxon on per-utterance seed means,1.0,3.289640671845196e-54,True
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),stoi,320,two-sided paired Wilcoxon on per-utterance seed means,0.0,3.258866789206682e-54,True
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),ssim,320,two-sided paired Wilcoxon on per-utterance seed means,0.0,3.258866789206682e-54,True
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),squim_mos,320,two-sided paired Wilcoxon on per-utterance seed means,4444.0,1.2508082989535537e-37,True
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),privacy_utility_success,320,exact paired McNemar on per-utterance majority across seeds,1.0,1.0,False
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),s_asv,320,two-sided paired Wilcoxon on per-utterance seed means,3595.0,1.4765537897164884e-40,True
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),pesq,320,two-sided paired Wilcoxon on per-utterance seed means,3937.0,2.3032948063017787e-39,True
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),stoi,320,two-sided paired Wilcoxon on per-utterance seed means,0.0,3.258866789206682e-54,True
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),ssim,320,two-sided paired Wilcoxon on per-utterance seed means,0.0,3.258866789206682e-54,True
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),squim_mos,320,two-sided paired Wilcoxon on per-utterance seed means,21289.0,0.008024976562650393,True
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),privacy_utility_success,320,exact paired McNemar on per-utterance majority across seeds,-2.0,0.5,False

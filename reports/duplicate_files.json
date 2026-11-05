@@ -1,0 +1,237 @@
+[
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_level_audit.csv",
+    "alias": "results/libritts/calibrated_asv/.ipynb_checkpoints/audio_level_audit-checkpoint.csv",
+    "sha256": "52ed3f071a053ce32e2e49d1dcc4c6574a0a825963cf0b8c4e03630d59493c82"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_level_audit.csv",
+    "alias": "results/libritts/fixed_threshold/.ipynb_checkpoints/audio_level_audit-checkpoint.csv",
+    "sha256": "52ed3f071a053ce32e2e49d1dcc4c6574a0a825963cf0b8c4e03630d59493c82"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_level_audit.csv",
+    "alias": "results/libritts/fixed_threshold/audio_level_audit.csv",
+    "sha256": "52ed3f071a053ce32e2e49d1dcc4c6574a0a825963cf0b8c4e03630d59493c82"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_examples/Dynamic_PGD_(No_U-Shape).wav",
+    "alias": "results/libritts/calibrated_asv/audio_examples/Static_PGD.wav",
+    "sha256": "9c6948caffc5489856421f5381008706ee6be28ae4793b4021278d03fd52c737"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_examples/Dynamic_PGD_(No_U-Shape).wav",
+    "alias": "results/libritts/fixed_threshold/audio_examples/Dynamic_PGD_(No_U-Shape).wav",
+    "sha256": "9c6948caffc5489856421f5381008706ee6be28ae4793b4021278d03fd52c737"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_examples/Dynamic_PGD_(No_U-Shape).wav",
+    "alias": "results/libritts/fixed_threshold/audio_examples/Static_PGD.wav",
+    "sha256": "9c6948caffc5489856421f5381008706ee6be28ae4793b4021278d03fd52c737"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav",
+    "alias": "results/libritts/fixed_threshold/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav",
+    "sha256": "1ba4de0780712d14c5a9ade27935d1d862db9173bce884be4fec1247f4b16b80"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_examples/Proposed_(Dynamic_+_U-Shape).wav",
+    "alias": "results/libritts/fixed_threshold/audio_examples/Proposed_(Dynamic_+_U-Shape).wav",
+    "sha256": "c07f17830ab740fb9ed95b7d6e8dd1211e51136d6625c35ff315f08328ffeff4"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_examples/Random_Noise.wav",
+    "alias": "results/libritts/fixed_threshold/audio_examples/Random_Noise.wav",
+    "sha256": "39b5599a8bb97511b7ac2ddabb525d60f5739557897ae345660641374137a2fc"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_examples/Undefended.wav",
+    "alias": "results/libritts/fixed_threshold/audio_examples/Undefended.wav",
+    "sha256": "08f842d350df6f85e7ebba419508a847359b632cc23b7d26215c822f42a411ca"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/audio_level_summary.csv",
+    "alias": "results/libritts/fixed_threshold/audio_level_summary.csv",
+    "sha256": "5c027afb3ef85bd23937d70e15a37282e1c208cf38ba4636eae1ed77fafc5483"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/contoh_mel_spectrogram.png",
+    "alias": "results/libritts/fixed_threshold/contoh_mel_spectrogram.png",
+    "sha256": "4249c956064fa6d8fc990cc17c4d50a07f375b9a807e8921aceaba11ed3db055"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/data_count_preview.csv",
+    "alias": "results/libritts/fixed_threshold/data_count_preview.csv",
+    "sha256": "577d41419fad26e4872182cd057942c7341c107cff3a6302ca73fb98768f3ccc"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/data_count_preview.csv",
+    "alias": "results/vctk/calibrated_asv/data_count_preview.csv",
+    "sha256": "577d41419fad26e4872182cd057942c7341c107cff3a6302ca73fb98768f3ccc"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/data_count_preview.csv",
+    "alias": "results/vctk/fixed_threshold/data_count_preview.csv",
+    "sha256": "577d41419fad26e4872182cd057942c7341c107cff3a6302ca73fb98768f3ccc"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/evaluated_methods.csv",
+    "alias": "results/libritts/fixed_threshold/evaluated_methods.csv",
+    "sha256": "30435f24b44eced12b57b022b3217f8eb52860fe56fbf0c8ce3667a1a044a3da"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/evaluated_methods.csv",
+    "alias": "results/vctk/calibrated_asv/evaluated_methods.csv",
+    "sha256": "30435f24b44eced12b57b022b3217f8eb52860fe56fbf0c8ce3667a1a044a3da"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/evaluated_methods.csv",
+    "alias": "results/vctk/fixed_threshold/evaluated_methods.csv",
+    "sha256": "30435f24b44eced12b57b022b3217f8eb52860fe56fbf0c8ce3667a1a044a3da"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/execution_workload.csv",
+    "alias": "results/libritts/fixed_threshold/execution_workload.csv",
+    "sha256": "90c92102ccc380ad69ce4417fc722f8d244523fa8b3e641a48447c92ae6ecd58"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/execution_workload.csv",
+    "alias": "results/vctk/calibrated_asv/execution_workload.csv",
+    "sha256": "90c92102ccc380ad69ce4417fc722f8d244523fa8b3e641a48447c92ae6ecd58"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/execution_workload.csv",
+    "alias": "results/vctk/fixed_threshold/execution_workload.csv",
+    "sha256": "90c92102ccc380ad69ce4417fc722f8d244523fa8b3e641a48447c92ae6ecd58"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/frequency_band_mapping.csv",
+    "alias": "results/libritts/fixed_threshold/frequency_band_mapping.csv",
+    "sha256": "311968bfd8225a5dceb6cd6d9a50f2e0abf336b14ea0c0b9ae8682fc36fd024d"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/frequency_band_mapping.csv",
+    "alias": "results/vctk/calibrated_asv/frequency_band_mapping.csv",
+    "sha256": "311968bfd8225a5dceb6cd6d9a50f2e0abf336b14ea0c0b9ae8682fc36fd024d"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/frequency_band_mapping.csv",
+    "alias": "results/vctk/fixed_threshold/frequency_band_mapping.csv",
+    "sha256": "311968bfd8225a5dceb6cd6d9a50f2e0abf336b14ea0c0b9ae8682fc36fd024d"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/per_sample_metrics.csv",
+    "alias": "results/libritts/calibrated_asv/per_sample_metrics_checkpoint.csv",
+    "sha256": "15fb4aa8a6203b18edcc1f1fab361ebe34910ffba98c366d1b859f941b5fcee9"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/quality_calibration_scores.csv",
+    "alias": "results/libritts/fixed_threshold/quality_calibration_scores.csv",
+    "sha256": "1230863c8817c732fbe1f9aed4cf5589ad2a81d31c39971aeaa2269ba25a669f"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/sample_selection_manifest.csv",
+    "alias": "results/libritts/calibrated_asv/sample_selection_preview.csv",
+    "sha256": "d6fc54a6278c07107430ac8fb9134a56f904c82674106e685bbceefdcbeca7f6"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/sample_selection_manifest.csv",
+    "alias": "results/libritts/fixed_threshold/sample_selection_manifest.csv",
+    "sha256": "d6fc54a6278c07107430ac8fb9134a56f904c82674106e685bbceefdcbeca7f6"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/sample_selection_manifest.csv",
+    "alias": "results/libritts/fixed_threshold/sample_selection_preview.csv",
+    "sha256": "d6fc54a6278c07107430ac8fb9134a56f904c82674106e685bbceefdcbeca7f6"
+  },
+  {
+    "canonical": "results/libritts/calibrated_asv/spektrum_perturbasi_ushape.png",
+    "alias": "results/libritts/fixed_threshold/spektrum_perturbasi_ushape.png",
+    "sha256": "ac761b589321cc23112d413e23fe6b08fa46691863b2af13936f3d4093fc961c"
+  },
+  {
+    "canonical": "results/libritts/fixed_threshold/per_sample_metrics.csv",
+    "alias": "results/libritts/fixed_threshold/per_sample_metrics_checkpoint.csv",
+    "sha256": "e4432b23868d97ed1c2f849d1694eca8c3b5a81302f180e2614c68f76c98288c"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/audio_examples/Dynamic_PGD_(No_U-Shape).wav",
+    "alias": "results/vctk/fixed_threshold/audio_examples/Dynamic_PGD_(No_U-Shape).wav",
+    "sha256": "11a7ddca53bea7c2636df2efe8b31df968282013d474bc60e14cb880254b91a1"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav",
+    "alias": "results/vctk/fixed_threshold/audio_examples/High-Frequency_PGD_(3.75-8_kHz).wav",
+    "sha256": "932d174a72b2c8ed15a692cfc7a795bdeee7ecde251f1eca250c895edd69e886"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/audio_examples/Proposed_(Dynamic_+_U-Shape).wav",
+    "alias": "results/vctk/fixed_threshold/audio_examples/Proposed_(Dynamic_+_U-Shape).wav",
+    "sha256": "78a51df538dace8f0c42ef5e9a05a9ab2e07a16247465a95ffd8d027909be7e3"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/audio_examples/Random_Noise.wav",
+    "alias": "results/vctk/fixed_threshold/audio_examples/Random_Noise.wav",
+    "sha256": "ff37a894cdae368da3bd6a1f68a6094631da8a5f90d4ad6c713cef848037e62f"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/audio_examples/Static_PGD.wav",
+    "alias": "results/vctk/fixed_threshold/audio_examples/Static_PGD.wav",
+    "sha256": "5d9cf3fa6c2bb087127de40267207f11294ce61bc0a0563c66f9fecc2adf4055"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/audio_examples/Undefended.wav",
+    "alias": "results/vctk/fixed_threshold/audio_examples/Undefended.wav",
+    "sha256": "c4d7a13511e8e0767084b061c278ea497cde6620ca6dd963c43f954e97f42288"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/audio_level_audit.csv",
+    "alias": "results/vctk/fixed_threshold/audio_level_audit.csv",
+    "sha256": "bcda81cbc848466fd27b0a891274d1f7fe6a536c31161577c146f0c4000d287e"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/audio_level_summary.csv",
+    "alias": "results/vctk/fixed_threshold/audio_level_summary.csv",
+    "sha256": "63bf72322dc77dd27b644ae4269e4492f7a3760256eddf24025e35962b41a7cf"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/contoh_mel_spectrogram.png",
+    "alias": "results/vctk/fixed_threshold/contoh_mel_spectrogram.png",
+    "sha256": "8583f8e947d7fc274c94ffcfabdde18c83cab30bf12e8a359c27af67ebfe0b83"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/per_sample_metrics.csv",
+    "alias": "results/vctk/calibrated_asv/per_sample_metrics_checkpoint.csv",
+    "sha256": "0928c376d6b4bde2797e4ace854c4a4f491b7266757556917ba81944b7e28d87"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/quality_calibration_scores.csv",
+    "alias": "results/vctk/fixed_threshold/quality_calibration_scores.csv",
+    "sha256": "9f976b74d27c8547bcbc7cd4d00467afd967c002dfebebe024aa32b5e81046ab"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/sample_selection_manifest.csv",
+    "alias": "results/vctk/calibrated_asv/sample_selection_preview.csv",
+    "sha256": "1b0d011756640e5a52802ccc9c4f5a115c5c2e2cbe3d01780bc462ee7940fa65"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/sample_selection_manifest.csv",
+    "alias": "results/vctk/fixed_threshold/sample_selection_manifest.csv",
+    "sha256": "1b0d011756640e5a52802ccc9c4f5a115c5c2e2cbe3d01780bc462ee7940fa65"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/sample_selection_manifest.csv",
+    "alias": "results/vctk/fixed_threshold/sample_selection_preview.csv",
+    "sha256": "1b0d011756640e5a52802ccc9c4f5a115c5c2e2cbe3d01780bc462ee7940fa65"
+  },
+  {
+    "canonical": "results/vctk/calibrated_asv/spektrum_perturbasi_ushape.png",
+    "alias": "results/vctk/fixed_threshold/spektrum_perturbasi_ushape.png",
+    "sha256": "a70af4b61c0ec29e33691e0b0cc2aa68cc6cc92a7afed0fbcff0c0a6ae031285"
+  },
+  {
+    "canonical": "results/vctk/fixed_threshold/per_sample_metrics.csv",
+    "alias": "results/vctk/fixed_threshold/per_sample_metrics_checkpoint.csv",
+    "sha256": "586c5e5eaadbe94a5de41a0ca1ff75f524224b2c7a50ed6f6ad989996a73c6a8"
+  }
+]

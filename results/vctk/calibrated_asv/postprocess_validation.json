@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "rows": 5760,
+  "speakers": 40,
+  "methods": 6,
+  "run_seeds": [
+    42,
+    43,
+    44
+  ],
+  "primary_calibrated_eer_threshold": 0.8474727869033813,
+  "legacy_fixed_threshold_audit_only": 0.25,
+  "checks": {
+    "nonempty_results": true,
+    "primary_threshold_column_matches_calibrated_eer": true,
+    "calibrated_threshold_audit_column_matches": true,
+    "legacy_threshold_audit_column_matches": true,
+    "asv_accept_matches_primary_threshold": true,
+    "asv_reject_matches_primary_threshold": true,
+    "legacy_reject_matches_fixed_threshold": true,
+    "legacy_misnamed_audit_column_removed": true
+  }
+}

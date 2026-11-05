@@ -1,0 +1,4 @@
+split,role,speakers,utterances
+calibration,calibration,20,100
+test,enrollment,40,80
+test,probe,40,320

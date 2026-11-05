@@ -1,0 +1,139 @@
+method,metric,n_speakers,mean,std_between_speakers,ci95_low,ci95_high,ci_method
+Dynamic PGD (No U-Shape),s_asv,40,0.2755797654855996,0.06854088138588021,0.2536593281728377,0.2975002027983615,Student-t over speaker means
+Dynamic PGD (No U-Shape),snr_db,40,7.588097696503003,0.5976087926285445,7.396973132425425,7.779222260580581,Student-t over speaker means
+Dynamic PGD (No U-Shape),pesq,40,1.0460227446009713,0.018456081693925347,1.0401202033200498,1.0519252858818928,Student-t over speaker means
+Dynamic PGD (No U-Shape),stoi,40,0.7300948573609324,0.07269746736838362,0.7068450793594857,0.7533446353623791,Student-t over speaker means
+Dynamic PGD (No U-Shape),ssim,40,0.27200354688519485,0.045660655493012736,0.257400560810954,0.28660653295943567,Student-t over speaker means
+Dynamic PGD (No U-Shape),mcd_db,40,51.24556906034447,4.496012879859774,49.80767438350947,52.68346373717947,Student-t over speaker means
+Dynamic PGD (No U-Shape),dtw_cost,40,8.343667916756269,0.7320288943788492,8.109553718544811,8.577782114967727,Student-t over speaker means
+Dynamic PGD (No U-Shape),squim_mos,40,3.5009595868488157,0.5527323566053876,3.3241872032914674,3.677731970406164,Student-t over speaker means
+Dynamic PGD (No U-Shape),wer,40,0.47795172581707507,0.16879616251911625,0.42396809408780334,0.5319353575463468,Student-t over speaker means
+Dynamic PGD (No U-Shape),band_energy_low_fraction,40,0.6647340453229844,0.09527967406488325,0.6342621272459299,0.6952059634000389,Student-t over speaker means
+Dynamic PGD (No U-Shape),band_energy_mid_fraction,40,0.1621617921007176,0.035834160277823664,0.1507014716592108,0.1736221125422244,Student-t over speaker means
+Dynamic PGD (No U-Shape),band_energy_high_fraction,40,0.17310416101245205,0.060218760209255665,0.1538452671737866,0.1923630548511175,Student-t over speaker means
+Dynamic PGD (No U-Shape),phase2_fraction,40,0.28317395833333336,0.3583017868850199,0.1685834876586794,0.39776442900798736,Student-t over speaker means
+Dynamic PGD (No U-Shape),phase_switches,40,65.04479166666667,74.11857978921162,41.34051986377953,88.74906346955382,Student-t over speaker means
+Dynamic PGD (No U-Shape),routing_s_asv_initial,40,0.9302244253456593,0.025022969924778333,0.9222216913200034,0.9382271593713152,Student-t over speaker means
+Dynamic PGD (No U-Shape),routing_s_asv_final,40,0.2755797654855996,0.06854088138588021,0.2536593281728377,0.2975002027983615,Student-t over speaker means
+Dynamic PGD (No U-Shape),asv_accept,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Dynamic PGD (No U-Shape),asv_obfuscated,40,100.0,0.0,100.0,100.0,Student-t over speaker means
+Dynamic PGD (No U-Shape),asv_accept_fixed_paper,40,56.97916666666667,40.080797803488174,44.16070565577806,69.79762767755528,Student-t over speaker means
+Dynamic PGD (No U-Shape),asv_obfuscated_fixed_paper,40,43.020833333333336,40.080797803488174,30.202372322444727,55.83929434422194,Student-t over speaker means
+Dynamic PGD (No U-Shape),quality_preserved,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Dynamic PGD (No U-Shape),privacy_utility_success,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Dynamic PGD (No U-Shape),dsr_success,40,86.66666666666667,15.70970629244455,81.64245885050671,91.69087448282663,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),s_asv,40,0.35999188118924697,0.1069102846460247,0.32580031339368765,0.3941834489848063,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),snr_db,40,17.68626623352369,0.40212403437402544,17.55766072817828,17.814871738869098,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),pesq,40,1.3526584421594936,0.14330490966267567,1.306827308603064,1.3984895757159232,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),stoi,40,0.9611541123735095,0.018026318426870132,0.9553890160533811,0.9669192086936378,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),ssim,40,0.5614664964873481,0.05196731140924965,0.5448465440002197,0.5780864489744766,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),mcd_db,40,34.81505386834776,5.052986342550679,33.19903043642641,36.43107730026911,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),dtw_cost,40,5.668494926536483,0.8227138360413757,5.405378276959783,5.931611576113183,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),squim_mos,40,3.3399586255351705,0.5480010052991003,3.16469940153482,3.515217849535521,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),wer,40,0.11195190226440226,0.07179771723701431,0.08898987831503423,0.1349139262137703,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),band_energy_low_fraction,40,0.13768318732424326,0.011210467072230166,0.13409790601862195,0.14126846862986456,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),band_energy_mid_fraction,40,0.23127536890096959,0.018533850030251306,0.22534795609947697,0.2372027817024622,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),band_energy_high_fraction,40,0.6310414429133138,0.029732959256194194,0.6215323812216651,0.6405505046049624,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),phase2_fraction,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),phase_switches,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),routing_s_asv_initial,40,0.9302244253456593,0.025022969924778333,0.9222216913200034,0.9382271593713152,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),routing_s_asv_final,40,0.35999188118924697,0.1069102846460247,0.32580031339368765,0.3941834489848063,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),asv_accept,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),asv_obfuscated,40,100.0,0.0,100.0,100.0,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),asv_accept_fixed_paper,40,86.97916666666667,31.87498254286992,76.78505269339206,97.17328063994128,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),asv_obfuscated_fixed_paper,40,13.020833333333334,31.874982542869922,2.826719360058723,23.214947306607947,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),quality_preserved,40,10.9375,20.274283301520512,4.4534696346754545,17.421530365324546,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),privacy_utility_success,40,10.9375,20.274283301520512,4.4534696346754545,17.421530365324546,Student-t over speaker means
+High-Frequency PGD (3.75-8 kHz),dsr_success,40,89.79166666666666,14.214662286935413,85.24559711981316,94.33773621352016,Student-t over speaker means
+Proposed (Dynamic + U-Shape),s_asv,40,0.31666287158926326,0.06938742276497135,0.2944716972089613,0.3388540459695652,Student-t over speaker means
+Proposed (Dynamic + U-Shape),snr_db,40,14.341505300998687,0.5940662401533288,14.151513700167131,14.531496901830243,Student-t over speaker means
+Proposed (Dynamic + U-Shape),pesq,40,1.2105253367374342,0.09072496365204989,1.1815100857189809,1.2395405877558876,Student-t over speaker means
+Proposed (Dynamic + U-Shape),stoi,40,0.8983135492900564,0.03799276247175846,0.8861628743751523,0.9104642242049604,Student-t over speaker means
+Proposed (Dynamic + U-Shape),ssim,40,0.4388685792679617,0.05202125685124806,0.4222313741914921,0.4555057843444313,Student-t over speaker means
+Proposed (Dynamic + U-Shape),mcd_db,40,37.73200664249591,4.355955734383049,36.33890441384001,39.12510887115181,Student-t over speaker means
+Proposed (Dynamic + U-Shape),dtw_cost,40,6.143425445891349,0.7092251791392158,5.916604229624408,6.370246662158291,Student-t over speaker means
+Proposed (Dynamic + U-Shape),squim_mos,40,3.955176817129056,0.5082406469416412,3.7926335726329787,4.117720061625134,Student-t over speaker means
+Proposed (Dynamic + U-Shape),wer,40,0.20255454470298218,0.10450539298237627,0.16913209857453712,0.23597699083142723,Student-t over speaker means
+Proposed (Dynamic + U-Shape),band_energy_low_fraction,40,0.6226948461184899,0.05993887821451172,0.6035254628842507,0.6418642293527291,Student-t over speaker means
+Proposed (Dynamic + U-Shape),band_energy_mid_fraction,40,0.19063276075758034,0.03758822576820554,0.1786114629570588,0.2026540585581019,Student-t over speaker means
+Proposed (Dynamic + U-Shape),band_energy_high_fraction,40,0.18667239238663264,0.028182447972777844,0.17765920826036732,0.19568557651289795,Student-t over speaker means
+Proposed (Dynamic + U-Shape),phase2_fraction,40,0.16928645833333333,0.3164332099106495,0.06808620818669112,0.2704867084799756,Student-t over speaker means
+Proposed (Dynamic + U-Shape),phase_switches,40,15.070833333333335,28.761335248396506,5.872512074603762,24.269154592062907,Student-t over speaker means
+Proposed (Dynamic + U-Shape),routing_s_asv_initial,40,0.9302244253456593,0.025022969924778333,0.9222216913200034,0.9382271593713152,Student-t over speaker means
+Proposed (Dynamic + U-Shape),routing_s_asv_final,40,0.31666287158926326,0.06938742276497135,0.2944716972089613,0.3388540459695652,Student-t over speaker means
+Proposed (Dynamic + U-Shape),asv_accept,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Proposed (Dynamic + U-Shape),asv_obfuscated,40,100.0,0.0,100.0,100.0,Student-t over speaker means
+Proposed (Dynamic + U-Shape),asv_accept_fixed_paper,40,72.91666666666666,42.28178434916492,59.39429600907954,86.43903732425377,Student-t over speaker means
+Proposed (Dynamic + U-Shape),asv_obfuscated_fixed_paper,40,27.083333333333336,42.281784349164916,13.56096267574622,40.60570399092045,Student-t over speaker means
+Proposed (Dynamic + U-Shape),quality_preserved,40,0.10416666666666666,0.6588078458684121,-0.1065303041704958,0.3148636375038291,Student-t over speaker means
+Proposed (Dynamic + U-Shape),privacy_utility_success,40,0.10416666666666666,0.6588078458684121,-0.1065303041704958,0.3148636375038291,Student-t over speaker means
+Proposed (Dynamic + U-Shape),dsr_success,40,74.375,19.96145680642467,67.99101640146436,80.75898359853564,Student-t over speaker means
+Random Noise,s_asv,40,0.8485651621284583,0.06005661991585619,0.8293581232713086,0.867772200985608,Student-t over speaker means
+Random Noise,snr_db,40,8.486635249356429,0.9629114913789426,8.178681214367051,8.794589284345806,Student-t over speaker means
+Random Noise,pesq,40,1.0764742005616426,0.04249572247751853,1.0628834091712525,1.0900649919520327,Student-t over speaker means
+Random Noise,stoi,40,0.8784539406065491,0.04593989143472262,0.8637616505456662,0.893146230667432,Student-t over speaker means
+Random Noise,ssim,40,0.4235608132475928,0.046903405491422766,0.4085603764419817,0.43856125005320395,Student-t over speaker means
+Random Noise,mcd_db,40,45.85595660673145,5.990696283817737,43.94003898656098,47.77187422690193,Student-t over speaker means
+Random Noise,dtw_cost,40,7.466145488317491,0.975389308118273,7.154200853935399,7.7780901226995836,Student-t over speaker means
+Random Noise,squim_mos,40,3.2230487438539663,0.5731403469681761,3.039749568338569,3.4063479193693635,Student-t over speaker means
+Random Noise,wer,40,0.33008383109945605,0.2045708103312275,0.2646589119385776,0.3955087502603345,Student-t over speaker means
+Random Noise,band_energy_low_fraction,40,0.17564793024212116,0.000827816550786583,0.1753831816651978,0.17591267881904452,Student-t over speaker means
+Random Noise,band_energy_mid_fraction,40,0.2928409103614588,0.0010977658597885274,0.2924898278071201,0.29319199291579756,Student-t over speaker means
+Random Noise,band_energy_high_fraction,40,0.5315111596758167,0.001218272282158706,0.5311215372978875,0.531900782053746,Student-t over speaker means
+Random Noise,phase2_fraction,0,,,,,Student-t over speaker means
+Random Noise,phase_switches,0,,,,,Student-t over speaker means
+Random Noise,routing_s_asv_initial,0,,,,,Student-t over speaker means
+Random Noise,routing_s_asv_final,0,,,,,Student-t over speaker means
+Random Noise,asv_accept,40,56.66666666666667,30.861906372699423,46.796550170988695,66.53678316234465,Student-t over speaker means
+Random Noise,asv_obfuscated,40,43.333333333333336,30.861906372699423,33.46321683765536,53.20344982901131,Student-t over speaker means
+Random Noise,asv_accept_fixed_paper,40,100.0,0.0,100.0,100.0,Student-t over speaker means
+Random Noise,asv_obfuscated_fixed_paper,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Random Noise,quality_preserved,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Random Noise,privacy_utility_success,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Random Noise,dsr_success,40,40.41666666666667,30.226471860599297,30.749771987037967,50.083561346295376,Student-t over speaker means
+Static PGD,s_asv,40,0.2520488934455595,0.09709859636680232,0.22099525579487514,0.2831025310962438,Student-t over speaker means
+Static PGD,snr_db,40,7.861214060088,0.4990240138301033,7.7016184378615975,8.020809682314402,Student-t over speaker means
+Static PGD,pesq,40,1.049678099527955,0.019980209929368612,1.043288118389738,1.0560680806661722,Student-t over speaker means
+Static PGD,stoi,40,0.7491147359667412,0.06980443874847836,0.7267901934047052,0.7714392785287771,Student-t over speaker means
+Static PGD,ssim,40,0.27973358350084926,0.043590620156672616,0.26579262684478855,0.29367454015690997,Student-t over speaker means
+Static PGD,mcd_db,40,50.574685831169134,4.567964978809622,49.1137797567177,52.03559190562057,Student-t over speaker means
+Static PGD,dtw_cost,40,8.234436489384695,0.7437439448902696,7.996575636254903,8.472297342514487,Student-t over speaker means
+Static PGD,squim_mos,40,3.845797400921583,0.48139353273135027,3.691840280096166,3.9997545217470005,Student-t over speaker means
+Static PGD,wer,40,0.4422833215089648,0.15246842454116877,0.3935215537179431,0.4910450892999865,Student-t over speaker means
+Static PGD,band_energy_low_fraction,40,0.5745605053690572,0.048828350686940594,0.558944441223446,0.5901765695146685,Student-t over speaker means
+Static PGD,band_energy_mid_fraction,40,0.19730769673672813,0.023229063914647755,0.18987868168644792,0.20473671178700834,Student-t over speaker means
+Static PGD,band_energy_high_fraction,40,0.22813179615574578,0.026771971865524255,0.21956970417281216,0.2366938881386794,Student-t over speaker means
+Static PGD,phase2_fraction,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Static PGD,phase_switches,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Static PGD,routing_s_asv_initial,40,0.9302244253456593,0.025022969924778333,0.9222216913200034,0.9382271593713152,Student-t over speaker means
+Static PGD,routing_s_asv_final,40,0.2520488934455595,0.09709859636680232,0.22099525579487514,0.2831025310962438,Student-t over speaker means
+Static PGD,asv_accept,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Static PGD,asv_obfuscated,40,100.0,0.0,100.0,100.0,Student-t over speaker means
+Static PGD,asv_accept_fixed_paper,40,55.729166666666664,42.93670700466628,41.99734158240241,69.46099175093092,Student-t over speaker means
+Static PGD,asv_obfuscated_fixed_paper,40,44.270833333333336,42.93670700466628,30.53900824906908,58.00265841759759,Student-t over speaker means
+Static PGD,quality_preserved,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Static PGD,privacy_utility_success,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Static PGD,dsr_success,40,77.8125,17.561134060395403,72.19617685783501,83.42882314216499,Student-t over speaker means
+Undefended,s_asv,40,0.9302244253456593,0.025022969924778333,0.9222216913200034,0.9382271593713152,Student-t over speaker means
+Undefended,snr_db,40,93.99984991550446,0.0009499910259863314,93.99954609363476,94.00015373737415,Student-t over speaker means
+Undefended,pesq,40,4.643888473510742,0.0,4.643888473510742,4.643888473510742,Student-t over speaker means
+Undefended,stoi,40,0.9999999999999998,1.3539166312974937e-16,0.9999999999999998,0.9999999999999998,Student-t over speaker means
+Undefended,ssim,40,1.0,0.0,1.0,1.0,Student-t over speaker means
+Undefended,mcd_db,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Undefended,dtw_cost,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Undefended,squim_mos,40,4.505519210547209,0.08218766253787961,4.479234320885501,4.531804100208916,Student-t over speaker means
+Undefended,wer,40,0.045998142482517476,0.04035430792507915,0.03309220869109973,0.05890407627393522,Student-t over speaker means
+Undefended,band_energy_low_fraction,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Undefended,band_energy_mid_fraction,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Undefended,band_energy_high_fraction,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Undefended,phase2_fraction,0,,,,,Student-t over speaker means
+Undefended,phase_switches,0,,,,,Student-t over speaker means
+Undefended,routing_s_asv_initial,0,,,,,Student-t over speaker means
+Undefended,routing_s_asv_final,0,,,,,Student-t over speaker means
+Undefended,asv_accept,40,93.4375,10.58675242570057,90.05169231557903,96.82330768442097,Student-t over speaker means
+Undefended,asv_obfuscated,40,6.5625,10.58675242570057,3.176692315579036,9.948307684420964,Student-t over speaker means
+Undefended,asv_accept_fixed_paper,40,100.0,0.0,100.0,100.0,Student-t over speaker means
+Undefended,asv_obfuscated_fixed_paper,40,0.0,0.0,0.0,0.0,Student-t over speaker means
+Undefended,quality_preserved,40,100.0,0.0,100.0,100.0,Student-t over speaker means
+Undefended,privacy_utility_success,40,6.5625,10.58675242570057,3.176692315579036,9.948307684420964,Student-t over speaker means
+Undefended,dsr_success,40,0.625,2.759017848289403,-0.25737671540474216,1.5073767154047422,Student-t over speaker means

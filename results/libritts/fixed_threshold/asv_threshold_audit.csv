@@ -1,0 +1,4 @@
+threshold_name,threshold,false_reject_rate,false_accept_rate,n_genuine,n_impostor
+paper_routing,0.24,0.0,0.995,200,200
+paper_evaluation,0.25,0.0,0.99,200,200
+calibration_eer_audit_only,0.8322013020515442,0.13,0.13,200,200

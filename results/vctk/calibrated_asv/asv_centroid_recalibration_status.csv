@@ -1,0 +1,2 @@
+dataset,status,protocol,threshold,eer,genuine_trials,impostor_trials,pgd_rerun
+VCTK,PASS,two-utterance enrollment centroid to held-out probe,0.8474727869033813,0.08999999999999998,600,600,False

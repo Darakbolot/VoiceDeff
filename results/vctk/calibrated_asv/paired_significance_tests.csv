@@ -1,0 +1,22 @@
+proposed,baseline,metric,n_pairs,test,statistic,p_value,holm_significant_0.05
+Proposed (Dynamic + U-Shape),Static PGD,s_asv,40,two-sided paired Wilcoxon on speaker means,0.0,1.8189894035458565e-12,True
+Proposed (Dynamic + U-Shape),Static PGD,pesq,40,two-sided paired Wilcoxon on speaker means,0.0,1.8189894035458565e-12,True
+Proposed (Dynamic + U-Shape),Static PGD,stoi,40,two-sided paired Wilcoxon on speaker means,0.0,1.8189894035458565e-12,True
+Proposed (Dynamic + U-Shape),Static PGD,ssim,40,two-sided paired Wilcoxon on speaker means,0.0,1.8189894035458565e-12,True
+Proposed (Dynamic + U-Shape),Static PGD,squim_mos,40,two-sided paired Wilcoxon on speaker means,155.0,0.0003790976079471875,True
+Proposed (Dynamic + U-Shape),Static PGD,privacy_utility_success,40,exact paired McNemar on per-speaker majority,0.0,1.0,False
+Proposed (Dynamic + U-Shape),Static PGD,dsr_success,40,exact paired McNemar on per-speaker majority,1.0,1.0,False
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),s_asv,40,two-sided paired Wilcoxon on speaker means,7.0,3.456079866737127e-11,True
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),pesq,40,two-sided paired Wilcoxon on speaker means,0.0,1.8189894035458565e-12,True
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),stoi,40,two-sided paired Wilcoxon on speaker means,0.0,1.8189894035458565e-12,True
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),ssim,40,two-sided paired Wilcoxon on speaker means,0.0,1.8189894035458565e-12,True
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),squim_mos,40,two-sided paired Wilcoxon on speaker means,4.0,1.2732925824820995e-11,True
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),privacy_utility_success,40,exact paired McNemar on per-speaker majority,0.0,1.0,False
+Proposed (Dynamic + U-Shape),Dynamic PGD (No U-Shape),dsr_success,40,exact paired McNemar on per-speaker majority,0.0,1.0,False
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),s_asv,40,two-sided paired Wilcoxon on speaker means,46.0,3.480272425804287e-08,True
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),pesq,40,two-sided paired Wilcoxon on speaker means,5.0,1.8189894035458565e-11,True
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),stoi,40,two-sided paired Wilcoxon on speaker means,0.0,1.8189894035458565e-12,True
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),ssim,40,two-sided paired Wilcoxon on speaker means,0.0,1.8189894035458565e-12,True
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),squim_mos,40,two-sided paired Wilcoxon on speaker means,236.0,0.01852677657188906,False
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),privacy_utility_success,40,exact paired McNemar on per-speaker majority,-1.0,1.0,False
+Proposed (Dynamic + U-Shape),High-Frequency PGD (3.75-8 kHz),dsr_success,40,exact paired McNemar on per-speaker majority,3.0,0.25,False

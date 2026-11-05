@@ -1,0 +1,16 @@
+# Install torch and torchaudio with matching versions for your CPU/CUDA environment.
+torch
+torchaudio
+transformers
+librosa
+soundfile
+matplotlib
+pandas
+numpy
+tqdm
+pesq
+pystoi
+jiwer
+scipy
+scikit-learn
+scikit-image

@@ -1,0 +1,5 @@
+label,frequency_hz,nearest_stft_bin,stft_resolution_hz,nyquist_hz
+Phase-1 high cutoff,2500.0,80,31.25,8000.0
+U-Shape low end,1406.25,45,31.25,8000.0
+U-Shape mid end,3750.0,120,31.25,8000.0
+High-frequency start,3750.0,120,31.25,8000.0

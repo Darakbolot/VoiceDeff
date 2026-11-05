@@ -1,0 +1,2 @@
+unique_utterances,unique_speakers,probe_utterances,random_seeds,probe_seed_trials,pgd_methods,iterations_per_pgd_method,total_pgd_iterations,metric_rows_expected
+500,60,320,3,960,4,1000,3840000,5760

@@ -1,0 +1,2 @@
+dataset,status,protocol,threshold,eer,genuine_trials,impostor_trials,pgd_rerun
+LibriTTS,PASS,two-utterance enrollment centroid to held-out probe,0.8544071912765503,0.08416666666666664,600,600,False

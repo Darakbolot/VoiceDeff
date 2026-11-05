@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "original_files_preserved": 144,
+  "hardlink_aliases_verified": 47,
+  "full_definitions_equivalent": 43,
+  "factorial_definitions_equivalent": 35,
+  "result_folders_validated": 4,
+  "metric_rows_validated": 23040,
+  "checks": [
+    "SHA-256 preservation",
+    "hardlink identity",
+    "AST equivalence",
+    "Python syntax",
+    "unique sample-seed-method keys",
+    "paired probes across methods",
+    "speaker-disjoint split"
+  ],
+  "not_run": [
+    "GPU experiments",
+    "model downloads",
+    "audio metric recomputation"
+  ]
+}
